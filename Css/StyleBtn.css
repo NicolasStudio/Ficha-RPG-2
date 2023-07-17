@@ -1,0 +1,6331 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxanium&display=swap');
+
+@media(max-width: 1920px){
+
+    html{
+        overflow-y: scroll;
+        background-color: #4444;
+        
+    }
+    
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Oxanium', cursive;
+        background-color: none;
+        
+    }
+    
+    .logo{
+        position: absolute;
+        width: 12%;
+        padding-top: 3%;
+        left: 3%;
+    }
+    
+    
+    /*Div*/
+    .nomeJogador{  
+        width: 35%;
+        position: absolute; 
+        left: 32%;
+        top: 6%;
+        font-size: clamp(8px, 4vw, 30px);
+        font-weight: 800;
+        text-align: center;
+    }
+    
+    /*texto*/
+    .txtNome{
+        padding-left: 20%;
+        color: #333;
+        width: 100%;
+    
+    }
+    
+    /*Caixa do texto digitado*/
+    .boxNome{
+        width: 100%;
+        left: 10%;
+        padding: 2%;
+        border: 3px solid black;
+        box-shadow: -4px 5px 0  #333;
+        border-radius: 30px;
+        position: absolute; 
+        font-size: clamp(8px, 4vw, 20px);
+        text-align: center;
+        outline: none;
+    }
+    
+    /*Div*/
+    .idadeJogador{  
+        width: 15%;
+        position: absolute; 
+        left: 20%;
+        top: 25%;
+        
+        font-size: clamp(8px, 4vw, 30px);
+        font-weight: 800;
+        text-align: center;
+    }
+    
+    /*texto*/
+    .txtIdade{
+        padding-left: 20%;
+        color: #333;
+        width: 100%;
+    
+    }
+    
+    /*Caixa do texto digitado*/
+    .boxAltura{
+        width: 100%;
+        left: 10%;
+        padding: 2%;
+        border: 3px solid black;
+        box-shadow: -3px 4px 0  #333;
+        border-radius: 30px;
+        position: absolute; 
+        font-size: clamp(8px, 4vw, 20px);
+        text-align: center;
+        outline: none;
+    }
+    
+    /*Div*/
+    .alturaJogador{  
+        width: 15%;
+        position: absolute; 
+        left: 44%;
+        top: 25%;  
+        font-size: clamp(8px, 4vw, 30px);
+        font-weight: 800;
+        text-align: center;
+    }
+    
+    /*texto*/
+    .txtAltura{
+        padding-left: 20%;
+        color: #333;
+        width: 100%;
+    
+    }
+    
+    /*Caixa do texto digitado*/
+    .boxIdade{
+        width: 100%;
+        left: 10%;
+        padding: 2%;
+        border: 3px solid black;
+        box-shadow: -3px 4px 0  #333;
+        border-radius: 30px;
+        position: absolute; 
+        font-size: clamp(8px, 4vw, 20px);
+        text-align: center;
+        outline: none;
+    }
+    
+    /*Div*/
+    .origemJogador{  
+        width: 15%;
+        position: absolute; 
+        left: 68%;
+        top: 25%;
+        font-size: clamp(8px, 4vw, 30px);
+        font-weight: 800;
+        text-align: center;
+    }
+    
+    /*texto*/
+    .txtOrigem{
+        padding-left: 20%;
+        color: #333;
+        width: 100%;
+    }
+    
+    /*Caixa do texto digitado*/
+    .boxOrigem{
+        width: 100%;
+        left: 10%;
+        padding: 2%;
+        border: 3px solid black;
+        box-shadow: -3px 4px 0  #333;
+        border-radius: 30px;
+        position: absolute; 
+        font-size: clamp(8px, 4vw, 20px);
+        text-align: center;
+        outline: none;
+    }
+    /* ----------- Sair ----------- */
+    
+    .boxSair{
+        position: absolute;
+        width: 7%;
+        top: 8%;
+        left: 86%;
+        background-color: rgb(251, 58, 58) ;
+        border: 3px solid black;
+        box-shadow: -3px 4px 0  #333;
+        border-radius: 30px;
+        position: absolute; 
+        font-weight: 800;
+        font-size: clamp(8px, 4vw, 22px);
+        text-align: center;
+        outline: none;
+    
+    }
+    
+    .textSair{
+        text-decoration: none;
+        color: #ffff;
+        background-color: none;
+    }
+    
+    /* ----------- ATRIBUTOSS ----------- */
+    .txtAtributo{
+        padding-left: 75%;
+        color: #333;
+        width: 60%;
+        font-weight: 800;
+        font-size: clamp(8px, 4vw, 24px);  
+    }
+    
+    .FOR{
+        position: absolute;
+        top: 50%;
+        left: 15%;
+        width: 6%;
+        text-align: center;
+    }
+    
+    .atributoFor{
+        position: absolute; 
+        text-align: center;
+        font-size: clamp(8px, 4vw, 20px);
+        width: 100%;
+        padding: 30%;
+        border: 3px solid black;
+        box-shadow: -3px 4px 0  #333;
+        border-radius: 50%;
+        outline: none;
+    }
+    
+    .INT{
+        position: absolute;
+        top: 66%;
+        left: 5%;
+        width: 6%;
+        text-align: center;
+    }
+    
+    .atributoInt{
+        position: absolute; 
+        font-size: clamp(8px, 4vw, 20px);
+        width: 100%;
+        padding: 30%;
+        border: 3px solid black;
+        box-shadow: -3px 4px 0  #333;
+        border-radius: 50%;
+        outline: none;
+        text-align: center;
+    }
+    
+    .PRE{
+        position: absolute;
+        top: 66%;
+        left: 25%;
+        width: 6%;
+        text-align: center;
+    }
+    
+    .atributoPre{
+        position: absolute; 
+        font-size: clamp(8px, 4vw, 20px);
+        width: 100%;
+        padding: 30%;
+        border: 3px solid black;
+        box-shadow: -3px 4px 0  #333;
+        border-radius: 50%;
+        outline: none;
+        text-align: center;
+    }
+    
+    .AGI{
+        position: absolute;
+        top: 86%;
+        left: 9%;
+        width: 6%;
+        text-align: center;
+    }
+    
+    .atributoAgi{
+        position: absolute; 
+        font-size: clamp(8px, 4vw, 20px);
+        width: 100%;
+        padding: 30%;
+        border: 3px solid black;
+        box-shadow: -3px 4px 0  #333;
+        border-radius: 50%;
+        outline: none;
+        text-align: center;
+    }
+    
+    .VIG{
+        position: absolute;
+        top: 86%;
+        left: 21%;
+        width: 6%;
+        text-align: center;
+    }
+    
+    .atributoVig{
+        position: absolute; 
+        font-size: clamp(8px, 4vw, 20px);
+        width: 100%;
+        padding: 30%;
+        border: 3px solid black;
+        border-radius: 50%;
+        box-shadow: -3px 4px 0  #333;
+        outline: none;
+        text-align: center;
+    }
+    
+    .blackAtributo{
+        position: absolute; 
+        background-color: #333;
+        width: 8.5%;
+        padding: 4%;
+        border: 3px solid black;
+        border-radius: 50%;  
+        top: 70%;
+        left: 17%;
+        box-shadow: -3px 4px 0  #333;
+    }
+    
+    .txtBlackAtributo{
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 22px);
+        background-color: #333;
+        position: absolute;
+        top: 40%;
+        left: 14.5%;
+        color: #ffff;
+    }
+    
+    .blackPericia{
+        position: absolute; 
+        background-color: #333;
+        width: 37%;
+        padding: 2%;
+        border: 3px solid black;
+        border-radius: 2%;  
+        top: 40%;
+        right: 3.5%;
+        box-shadow:  -5.5px 6.5px 0  #4444;
+    }
+    
+    .txtBlackPericia{
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 24px);
+        position: absolute;
+        top: 30%;
+        left: 40.5%;
+        color: #ffff;
+        background-color: #333;
+    }
+    
+    .pericia{
+        position: absolute;
+        top: 52%;
+        left: 60.5%;
+    }
+    
+    /* pericias */
+    input.teste{
+        text-align: center;
+        position: absolute; 
+        background-color: #ffff;
+        width: 35%;
+        padding: 0.5%;
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 16px);
+        color: #333;
+        border: 3px solid black;
+        border-radius: 2%;  
+        right: -33%;
+    }
+    
+    .nomePericia{
+        position: absolute;
+        display: contents;
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 24px);
+        padding-left: 33%; /*certo*/
+    }
+    
+    .nomeDado{
+    color: #6a6a6a;
+    left: 60.5%;
+    }
+    
+    .perAcro{
+        top: -0.8%;
+    }
+    
+    .perAdes{ 
+        top: 2.8%;
+    }
+    
+    .perArte{
+        top: 6.4%;
+    }
+    
+    .perAtle{
+        top: 10%; 
+    }
+    
+    .perAtua{ 
+        top: 13.6%; 
+    }
+    .perCien{
+        top: 17.2%;
+    }
+    .perCrim{
+        top: 20.8%;
+    }
+    .perDipl{
+        top: 24.4%;
+    }
+    .perEnga{ 
+        top: 28%;
+    }
+    
+    .perFort{
+        top: 31.6%;
+    }
+    
+    .perFurt{
+        top: 35.1%;
+    }
+    
+    .perInic{
+        top: 38.7%;
+    }
+    
+    .perInti{
+        top: 42.3%;
+    }
+    
+    .perIntui{
+        top: 45.9%;
+    }
+    
+    .perInve{
+        top: 49.4%;
+    }
+    
+    .perLuta{
+        top: 53%;
+    }
+    
+    .perMedi{
+        top: 56.5%;
+    }
+    
+    .perOcul{ 
+        top: 60%;
+    }
+    
+    .perPerc{
+        top: 63.6%;
+    }
+    
+    .perPilo{
+        top: 67.1%;
+    }
+    
+    .perPont{
+        top: 70.7%;
+    }
+    
+    .profissao{
+        padding: 0.5%;
+        width: 37.8%;
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 18px);
+        color: #333;
+        border: none;
+        border-radius: 2%; 
+        border-bottom: #333; 
+        background-color: transparent;
+    }
+    
+    .perProf{
+        top: 74.3%;
+    }
+    
+    .perRefl{
+        top: 77.9%;
+    }
+    
+    .perReli{
+        top: 81.4%;
+    }
+    
+    .perSobr{
+        top: 85%;
+    }
+    
+    .perTati{
+        top: 88.6%;
+    }
+    
+    .perTecn{
+        top: 92.2%;
+    }
+    
+    .perVont{
+        top: 95.9%;
+    }
+    
+    
+    
+    /* SAUDE */
+    .blackSaude{
+        position: absolute; 
+        background-color: #333;
+        width: 25%;
+        padding: 2%;
+        border: 3px solid black;
+        border-radius: 2%;  
+        top: 120%;
+        left: 3%;
+        box-shadow:  -5.5px 6.5px 0  #4444;
+    }
+    
+    .txtBlackSaude{
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 24px);
+        position: absolute;
+        top: 30%;
+        left: 40%;
+        color: #ffff;
+        background-color: #333;
+    }
+    
+    .descricao{
+        position: absolute;
+        display: contents;
+        width: 35%;
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 15px);
+        color: #6a6a6a;
+    }
+    
+    /* VIDA */
+    .posicaoSaude{
+        position: absolute;
+        top: 130%;
+        left: 3.5%;
+        width: 25%;
+    }
+    
+    .txtSaude{
+        position: absolute;
+        width: 100%;
+        padding: 0.5%;
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 25px);
+        color: #333;
+    }
+    
+    .pontosVidaMax{
+        position: absolute; 
+        background-color: #ffff;
+        width: 10%;
+        padding: 0.5%;
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 17px);
+        text-align: center;
+        color: #333;
+        border: 3px solid black;
+        border-radius: 2%; 
+        left: 3.5%;
+        bottom: -42%;
+    }
+    
+    .pontosVidaMin{
+        position: absolute; 
+        background-color: #ffff;
+        width: 10%;
+        padding: 0.5%;
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 17px);
+        text-align: center;
+        color: #333;
+        border: 3px solid black;
+        border-radius: 2%; 
+        left: 14.5%;
+        bottom: -42%;
+    }
+    
+    /* SANIDADE */
+    .posicaoSanidade{
+        position: absolute;
+        top: 144%;
+        left: 3.5%;
+        width: 25%;
+        background-color: none;
+    }
+    
+    .txtSanidade{
+        position: absolute;
+        width: 100%;
+        padding: 0.5%;
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 25px);
+        color: #333;
+    }
+    
+    .pontosSanidadeMax{
+        position: absolute; 
+        background-color: #ffff;
+        width: 10%;
+        padding: 0.5%;
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 17px);
+        text-align: center;
+        color: #333;
+        border: 3px solid black;
+        border-radius: 2%; 
+        left: 3.5%;
+        bottom: -55.5%;
+    }
+    
+    .pontosSanidadeMin{
+        position: absolute; 
+        background-color: #ffff;
+        width: 10%;
+        padding: 0.5%;
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 17px);
+        text-align: center;
+        color: #333;
+        border: 3px solid black;
+        border-radius: 2%; 
+        left: 14.5%;
+        bottom: -55.5%;
+    }
+    
+    /* ESFORÇO */
+    .posicaoEsforco{
+        position: absolute;
+        top: 158.5%;
+        left: 3.5%;
+        width: 25%;
+    }
+    
+    .txtEsforco{
+        position: absolute;
+        width: 100%;
+        padding: 0.5%;
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 25px);
+        color: #333;
+    }
+    
+    .pontosEsforcoMax{
+        position: absolute; 
+        background-color: #ffff;
+        width: 10%;
+        padding: 0.5%;
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 17px);
+        text-align: center;
+        color: #333;
+        border: 3px solid black;
+        border-radius: 2%; 
+        left: 3.5%;
+        bottom: -70%;
+    }
+    
+    .pontosEsforcoMin{
+        position: absolute; 
+        background-color: #ffff;
+        width: 10%;
+        padding: 0.5%;
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 17px);
+        text-align: center;
+        color: #333;
+        border: 3px solid black;
+        border-radius: 2%; 
+        left: 14.5%;
+        bottom: -70%;
+    }
+    
+    /* RESISTÊNCIA */
+    .blackResistencia{
+        position: absolute; 
+        background-color: #333;
+        width: 25%;
+        padding: 2%;
+        border: 3px solid black;
+        border-radius: 2%;  
+        top: 120%;
+        left: 32%;
+        box-shadow:  -5.5px 6.5px 0  #4444;
+    }
+    
+    .txtBlackResistencia{
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 24px);
+        position: absolute;
+        top: 30%;
+        left: 30%;
+        color: #ffff;
+        background-color: #333;
+    }
+    
+    /* RESISTÊNCIA */
+    .posicaoFisica{
+        position: absolute;
+        width: 25%;
+        left: 32%;
+        bottom: -36.5%;
+    }
+    
+    .txtFisica{
+        position: absolute;
+        width: 28%;
+        padding: 0.5%;
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 25px);
+        color: #333;
+        top: -80%;
+        text-align: center;
+        
+        
+    }
+    
+    .pontosFis{
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 17px);
+        text-align: center;
+        position: absolute;
+        width: 30%;
+        padding: 2.5%;
+        border: 3px solid black;
+        border-radius: 2%; 
+        background-color: #ffff;
+    }
+    
+    /* BALISTICA */
+    .posicaoBalistica{
+        position: absolute;
+        width: 25%;
+        left: 40.5%;
+        bottom: -36.5%;
+    }
+    
+    .txtBalistica{
+        position: absolute;
+        width: 28%;
+        padding: 0.5%;
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 25px);
+        color: #333;
+        top: -80%;
+        text-align: center;  
+    }
+    
+    .pontosBalis{
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 17px);
+        text-align: center;
+        position: absolute;
+        width: 30%;
+        padding: 2.5%;
+        border: 3px solid black;
+        border-radius: 2%; 
+        background-color: #ffff;
+    }
+    
+    /* SANIDADE */
+    .posicaoSani{
+        position: absolute;
+        width: 25%;
+        left: 49%;
+        bottom: -36.5%;
+        padding: 0%;
+    }
+    
+    .txtSani{
+        position: absolute;
+        width: 28%;
+        padding: 0.5%;
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 25px);
+        color: #333;
+        top: -80%;
+        text-align: center; 
+    }
+    
+    .pontosSani{
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 17px);
+        text-align: center;
+        position: absolute;
+        width: 30%;
+        padding: 2.5%;
+        border: 3px solid black;
+        border-radius: 2%; 
+        text-align: center;
+        background-color: #ffff;
+    }
+    
+    /* DEFESA */
+    .blackDefesa{
+        position: absolute; 
+        background-color: #333;
+        width: 25%;
+        padding: 2%;
+        border: 3px solid black;
+        border-radius: 2%;  
+        top: 146%;
+        left: 32%;
+        box-shadow:  -5.5px 6.5px 0  #4444;
+    }
+    
+    .txtDefesa{
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 24px);
+        position: absolute;
+        top: 30%;
+        left: 30.5%;
+        color: #ffff;
+        padding-left: 5%;
+        background-color: #333;
+    }
+    
+    /* PASSIVA */
+    .posicaoDef{
+        position: absolute;
+        top: 158%;
+        left: 31.5%;
+        width: 25%;
+    }
+    
+    .txtDef{
+        position: absolute;
+        width: 43%;
+        padding: 0.5%;
+        left: 10%;
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 24px);
+        color: #333;
+        padding-top: 2%;
+    }
+    
+    .pontosDEF{
+        position: absolute; 
+        background-color: #ffff;
+        width: 10%;
+        padding: 0.5%;
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 17px);
+        text-align: center;
+        color: #333;
+        border: 3px solid black;
+        border-radius: 2%; 
+        left: 32%;
+        bottom: -70%;
+    }
+    
+    /* ESQUIVA */
+    .posicaoEsq{
+        position: absolute;
+        top: 158%;
+        left: 43.5%;
+        width: 25%;
+    }
+    
+    .txtEsq{
+        position: absolute;
+        width: 30%;
+        left: 12%;
+        padding: 0.5%;
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 24px);
+        color: #333;
+        padding-top: 2%;
+    }
+    
+    .pontosEsq{
+        position: absolute; 
+        background-color: #ffff;
+        width: 10%;
+        padding: 0.5%;
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 17px);
+        text-align: center;
+        color: #333;
+        border: 3px solid black;
+        border-radius: 2%; 
+        left: 45%;
+        bottom: -70%;
+    }
+    
+    /* ARMAS */
+    .titleArmas{
+        position: absolute; 
+        background-color: #333;
+        width: 80%;
+        padding: 2%;
+        border: 3px solid black;
+        border-radius: 2%;  
+        top: 180%;
+        left: 10%;
+        box-shadow:  -5.5px 6.5px 0  #4444;  
+    }
+    
+    .txtArmas{
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 24px);
+        position: absolute;
+        top: 30%;
+        left: 38%;
+        color: #ffff;
+        padding-left: 5%;
+        background-color: #333;
+    }
+    
+    /* ARMAS - Campo de digitação*/
+    .boxArmas{
+        position: absolute; 
+        border: 3px solid #333;
+        background-color: #4444;
+        width: 80%;
+        height: 30%;
+        padding: 2%; 
+        bottom: -130%;
+        left: 10%;
+    }
+    
+    .txtBox{
+        font-weight: 800;
+        font-size: clamp(8px, 1.5vw, 24px);
+        position: absolute;
+        top: -20%;
+        left: 5%;
+        color: #333;
+    }
+    
+    input.bxL{
+        position: absolute;
+        background-color: #ffff;
+        width: 95%;
+        padding: 0.5%;
+        padding-bottom:- 30px;
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 16px);
+        color: #333;
+    }
+    
+    .linha1{
+        top: 3%;
+    }
+    .linha2{
+        top: 23%;
+    }
+    .linha3{
+        top: 43%;
+    }
+    .linha4{
+        top: 63%;
+    }
+    
+    .linha5{
+        top: 83%;
+    }
+    .bag{
+        width: 3%;
+    }
+    
+    /*barra preta do inventario*/
+    .titleInventario{
+        position: absolute; 
+        background-color: #333;
+        width: 80%;
+        padding: 0.5%;
+        border: 3px solid black;
+        border-radius: 2%;  
+        top: 240%;
+        left: 10%;
+        box-shadow:  -5.5px 6.5px 0  #4444;
+    }
+    
+    .txtInventario{
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 24px);
+        position: absolute;
+        top: 30%;
+        left: 38%;
+        color: #ffff;
+        padding-left: 5%;
+        background-color: #333;
+    }
+    
+    /*Itens*/
+    .titleDetalhe{
+        position: absolute; 
+        border: 3px solid #333;
+        background-color: #4444;
+        width: 30%;
+        padding: 2%; 
+        height: 50%;
+        bottom: -200%;
+        left: 10%;
+    }
+    
+    /*Detalhes*/
+    .titleDeta{
+        position: absolute; 
+        border: 3px solid #333;
+        background-color: #4444;
+        width: 30%;
+        padding: 2%; 
+        height: 50%;
+        bottom: -200%;
+        left: 40%; 
+    }
+    
+    /*Input do item e detalhes*/
+    .txtItem, .txtDeta{
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 24px);
+        position: absolute;
+        top: 5%;
+        color: #333;
+    }
+    
+    input.bxI, input.bxD{
+        position: absolute;
+        background-color: #ffff;
+        width: 85%;
+        padding: 0.5%;
+        padding-bottom:- 30px;
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 17px);
+        color: #333;
+    }
+    
+    /*Espaço*/
+    .titleEspaco{
+        position: absolute; 
+        border: 3px solid #333;
+        background-color: #4444;
+        width: 10%;
+        height: 50%;
+        bottom: -200%;
+        padding: 2%; 
+        left: 70%;
+    }
+    
+    /*Peso*/
+    .titlePeso{
+        position: absolute; 
+        border: 3px solid #333;
+        background-color: #4444;
+        width: 10%;
+        padding: 2%; 
+        height: 50%;
+        bottom: -200%;
+        left: 80%;
+    }
+    
+    .txtEspa, .txtPeso{
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 24px);
+        position: absolute;
+        top: 5%;
+        color: #333;
+    }
+    
+    input.bxE, input.bxP{
+        position: absolute;
+        text-align: center;
+        background-color: #ffff;
+        width: 60%;
+        padding: 0.5%;
+        padding-bottom:- 30px;
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 17px);
+        color: #333;
+    }
+    
+    .boxItem8, .boxDeta8, .boxEspa8, .boxPeso8 {
+        top: 85%;
+    }
+    .boxItem7, .boxDeta7, .boxEspa7, .boxPeso7 {
+        top: 75%;
+    }
+    .boxItem6, .boxDeta6, .boxEspa6, .boxPeso6 {
+        top: 65%;
+    }
+    .boxItem5, .boxDeta5, .boxEspa5, .boxPeso5 {
+        top: 55%;
+    }
+    .boxItem4, .boxDeta4, .boxEspa4, .boxPeso4 {
+        top: 45%;
+    }
+    .boxItem3, .boxDeta3, .boxEspa3, .boxPeso3 {
+        top: 35%;
+    }
+    .boxItem2, .boxDeta2, .boxEspa2, .boxPeso2 {
+        top: 25%;
+    }
+    .boxItem1, .boxDeta1, .boxEspa1, .boxPeso1 {
+        top: 15%;
+    }
+    
+    /* Retornar o valor*/
+    .somaPesoEspaco{
+        position: absolute; 
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 14px);
+        background-color: #333;
+        color: #ffff;
+        width: 30%;
+        padding: 0.5%;
+        border: 3px solid black;
+        border-radius: 2%;  
+        bottom: -207%;
+        right: 10%;
+    }
+    
+    .boxSomaPeso, .boxSomaEspa{
+        position: absolute 1fr;
+        width: 27%;
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 14px);
+        color: red;
+        text-align: center;
+        outline: none;
+    }
+    
+    /*Caracteristicas*/
+    .titleCarac{
+        position: absolute; 
+        background-color: #333;
+        width: 80%;
+        padding: 2%;
+        border: 3px solid black;
+        border-radius: 2%;  
+        bottom: -220%;
+        left: 10%;
+        box-shadow:  -5.5px 6.5px 0  #4444;
+    }
+    
+    .txtCarac{
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 24px);
+        position: absolute;
+        top: 30%;
+        left: 38%;
+        color: #ffff;
+        padding-left: 5%;
+        background-color: #333;
+    }
+    
+    .boxCarac{
+        position: absolute;
+        background-color: #4444;
+        width: 80%;
+        height: 30%;
+        padding: 2%;
+        border: 3px solid black;
+        bottom: -250%;
+        left: 10%;
+    }
+    
+    .blocoCarac{
+        position: absolute;
+        background-color: #ffff;
+        width: 95%;
+        height: 70%;
+        padding: 0.5%;
+        padding-bottom:- 30px;
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 16px);
+        color: #333;
+    }
+    /*Habilidades*/
+    
+    .titleHab{
+        position: absolute; 
+        background-color: #333;
+        width: 80%;
+        padding: 2%;
+        border: 3px solid black;
+        border-radius: 2%;  
+        bottom: -270%;
+        left: 10%;
+        box-shadow:  -5.5px 6.5px 0  #4444;
+    }
+    
+    .txtHab{
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 24px);
+        position: absolute;
+        top: 30%;
+        left: 38%;
+        color: #ffff;
+        padding-left: 5%;
+        background-color: #333;
+    }
+    
+    .boxHab{
+        position: absolute;
+        background-color: #4444;
+        width: 80%;
+        height: 30%;
+        padding: 2%;
+        border: 3px solid black;
+        bottom: -300%;
+        left: 10%;
+    }
+    
+    .blocoHab{
+        position: absolute;
+        background-color: #ffff;
+        width: 95%;
+        height: 70%;
+        padding: 0.5%;
+        padding-bottom:- 30px;
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 16px);
+        color: #333;
+    }
+    
+    /*----------------------------- FIM -----------------------------*/
+    
+    .boxBtn{
+        position: absolute;
+        width: 30%;
+        height: 15%;
+        padding: 2%;
+        border: 3px solid #333;
+        border-radius: 6px;
+        bottom: -320%;
+        right: 10%;
+    }
+    
+    button.btn{
+        position: absolute;
+        width: 25%;
+        height: 10%;
+        padding: 3%;
+        font-weight: 800;
+        font-size: clamp(8px, 1.5vw, 22px);
+        border: 3px solid #333;
+        border-radius: 6px;
+        box-shadow:  -5.5px 6.5px 0  #4444;
+        color: #333;
+        padding-bottom: 7%;
+        padding-top: 2%;
+    }
+    
+    button:active{
+        position: absolute;
+        box-shadow: inset -4px 4px 0 #4444;;
+        font-size: 0.9rem;
+        font-size: clamp(8px, 2vw, 22px);
+    }
+    
+    .salvar{
+        position: absolute;
+        background-color: rgb(88, 249, 104);
+        left: 8.5%;
+        
+    }
+    .atualizar{
+        position: absolute;
+        background-color: rgb(91, 102, 252);
+        left: 39%;
+    }
+    
+    .apagar{
+        position: absolute;
+        background-color: rgb(252, 67, 67);
+        left: 69.5%;
+    }
+    
+    
+    
+
+}
+
+@media(max-width: 1720px){
+
+    html{
+        overflow-y: scroll;
+        background-color: #4444;
+        
+    }
+    
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Oxanium', cursive;
+        background-color: none;
+        
+    }
+    
+    .logo{
+        position: absolute;
+        width: 12%;
+        padding-top: 3%;
+        left: 3%;
+    }
+    
+    
+    /*Div*/
+    .nomeJogador{  
+        width: 35%;
+        position: absolute; 
+        left: 32%;
+        top: 6%;
+        font-size: clamp(8px, 4vw, 30px);
+        font-weight: 800;
+        text-align: center;
+    }
+    
+    /*texto*/
+    .txtNome{
+        padding-left: 20%;
+        color: #333;
+        width: 100%;
+    
+    }
+    
+    /*Caixa do texto digitado*/
+    .boxNome{
+        width: 100%;
+        left: 10%;
+        padding: 2%;
+        border: 3px solid black;
+        box-shadow: -4px 5px 0  #333;
+        border-radius: 30px;
+        position: absolute; 
+        font-size: clamp(8px, 4vw, 20px);
+        text-align: center;
+        outline: none;
+    }
+    
+    /*Div*/
+    .idadeJogador{  
+        width: 15%;
+        position: absolute; 
+        left: 20%;
+        top: 25%;
+        
+        font-size: clamp(8px, 4vw, 30px);
+        font-weight: 800;
+        text-align: center;
+    }
+    
+    /*texto*/
+    .txtIdade{
+        padding-left: 20%;
+        color: #333;
+        width: 100%;
+    
+    }
+    
+    /*Caixa do texto digitado*/
+    .boxAltura{
+        width: 100%;
+        left: 10%;
+        padding: 2%;
+        border: 3px solid black;
+        box-shadow: -3px 4px 0  #333;
+        border-radius: 30px;
+        position: absolute; 
+        font-size: clamp(8px, 4vw, 20px);
+        text-align: center;
+        outline: none;
+    }
+    
+    /*Div*/
+    .alturaJogador{  
+        width: 15%;
+        position: absolute; 
+        left: 44%;
+        top: 25%;  
+        font-size: clamp(8px, 4vw, 30px);
+        font-weight: 800;
+        text-align: center;
+    }
+    
+    /*texto*/
+    .txtAltura{
+        padding-left: 20%;
+        color: #333;
+        width: 100%;
+    
+    }
+    
+    /*Caixa do texto digitado*/
+    .boxIdade{
+        width: 100%;
+        left: 10%;
+        padding: 2%;
+        border: 3px solid black;
+        box-shadow: -3px 4px 0  #333;
+        border-radius: 30px;
+        position: absolute; 
+        font-size: clamp(8px, 4vw, 20px);
+        text-align: center;
+        outline: none;
+    }
+    
+    /*Div*/
+    .origemJogador{  
+        width: 15%;
+        position: absolute; 
+        left: 68%;
+        top: 25%;
+        font-size: clamp(8px, 4vw, 30px);
+        font-weight: 800;
+        text-align: center;
+    }
+    
+    /*texto*/
+    .txtOrigem{
+        padding-left: 20%;
+        color: #333;
+        width: 100%;
+    }
+    
+    /*Caixa do texto digitado*/
+    .boxOrigem{
+        width: 100%;
+        left: 10%;
+        padding: 2%;
+        border: 3px solid black;
+        box-shadow: -3px 4px 0  #333;
+        border-radius: 30px;
+        position: absolute; 
+        font-size: clamp(8px, 4vw, 20px);
+        text-align: center;
+        outline: none;
+    }
+    /* ----------- Sair ----------- */
+    
+    .boxSair{
+        position: absolute;
+        width: 7%;
+        top: 8%;
+        left: 86%;
+        background-color: rgb(251, 58, 58) ;
+        border: 3px solid black;
+        box-shadow: -3px 4px 0  #333;
+        border-radius: 30px;
+        position: absolute; 
+        font-weight: 800;
+        font-size: clamp(8px, 4vw, 22px);
+        text-align: center;
+        outline: none;
+    
+    }
+    
+    .textSair{
+        text-decoration: none;
+        color: #ffff;
+        background-color: none;
+    }
+    
+    /* ----------- ATRIBUTOSS ----------- */
+    .txtAtributo{
+        padding-left: 75%;
+        color: #333;
+        width: 60%;
+        font-weight: 800;
+        font-size: clamp(8px, 4vw, 24px);  
+    }
+    
+    .FOR{
+        position: absolute;
+        top: 50%;
+        left: 14.5%;
+        width: 7%;
+        text-align: center;
+    }
+    
+    .atributoFor{
+        position: absolute; 
+        text-align: center;
+        font-size: clamp(8px, 4vw, 20px);
+        width: 100%;
+        padding: 30%;
+        border: 3px solid black;
+        box-shadow: -3px 4px 0  #333;
+        border-radius: 50%;
+        outline: none;
+    }
+    
+    .INT{
+        position: absolute;
+        top: 66%;
+        left: 4.5%;
+        width: 7%;
+        text-align: center;
+    }
+    
+    .atributoInt{
+        position: absolute; 
+        font-size: clamp(8px, 4vw, 20px);
+        width: 100%;
+        padding: 30%;
+        border: 3px solid black;
+        box-shadow: -3px 4px 0  #333;
+        border-radius: 50%;
+        outline: none;
+        text-align: center;
+    }
+    
+    .PRE{
+        position: absolute;
+        top: 66%;
+        left: 24.5%;
+        width: 7%;
+        text-align: center;
+    }
+    
+    .atributoPre{
+        position: absolute; 
+        font-size: clamp(8px, 4vw, 20px);
+        width: 100%;
+        padding: 30%;
+        border: 3px solid black;
+        box-shadow: -3px 4px 0  #333;
+        border-radius: 50%;
+        outline: none;
+        text-align: center;
+    }
+    
+    .AGI{
+        position: absolute;
+        top: 86%;
+        left: 8.5%;
+        width: 7%;
+        text-align: center;
+    }
+    
+    .atributoAgi{
+        position: absolute; 
+        font-size: clamp(8px, 4vw, 20px);
+        width: 100%;
+        padding: 30%;
+        border: 3px solid black;
+        box-shadow: -3px 4px 0  #333;
+        border-radius: 50%;
+        outline: none;
+        text-align: center;
+    }
+    
+    .VIG{
+        position: absolute;
+        top: 86%;
+        left: 21.5%;
+        width: 7%;
+        text-align: center;
+    }
+    
+    .atributoVig{
+        position: absolute; 
+        font-size: clamp(8px, 4vw, 20px);
+        width: 100%;
+        padding: 30%;
+        border: 3px solid black;
+        border-radius: 50%;
+        box-shadow: -3px 4px 0  #333;
+        outline: none;
+        text-align: center;
+    }
+    
+    .blackAtributo{
+        position: absolute; 
+        background-color: #333;
+        width: 8.5%;
+        padding: 4%;
+        border: 3px solid black;
+        border-radius: 50%;  
+        top: 70%;
+        left: 17%;
+        box-shadow: -3px 4px 0  #333;
+    }
+    
+    .txtBlackAtributo{
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 19px);
+        background-color: #333;
+        position: absolute;
+        top: 40%;
+        left: 14.5%;
+        color: #ffff;
+    }
+    
+    .blackPericia{
+        position: absolute; 
+        background-color: #333;
+        width: 37%;
+        padding: 2%;
+        border: 3px solid black;
+        border-radius: 2%;  
+        top: 40%;
+        right: 3.5%;
+        box-shadow:  -5.5px 6.5px 0  #4444;
+    }
+    
+    .txtBlackPericia{
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 24px);
+        position: absolute;
+        top: 30%;
+        left: 40.5%;
+        color: #ffff;
+        background-color: #333;
+    }
+    
+    .pericia{
+        position: absolute;
+        top: 52%;
+        left: 60.5%;
+    }
+    
+    /* pericias */
+    input.teste{
+        text-align: center;
+        position: absolute; 
+        background-color: #ffff;
+        width: 35%;
+        padding: 0.5%;
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 16px);
+        color: #333;
+        border: 3px solid black;
+        border-radius: 2%;  
+        right: -33%;
+    }
+    
+    .nomePericia{
+        position: absolute;
+        display: contents;
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 24px);
+        padding-left: 33%; /*certo*/
+    }
+    
+    .nomeDado{
+    color: #6a6a6a;
+    left: 60.5%;
+    }
+    
+    .perAcro{
+        top: -0.8%;
+    }
+    
+    .perAdes{ 
+        top: 2.8%;
+    }
+    
+    .perArte{
+        top: 6.4%;
+    }
+    
+    .perAtle{
+        top: 10%; 
+    }
+    
+    .perAtua{ 
+        top: 13.6%; 
+    }
+    .perCien{
+        top: 17.2%;
+    }
+    .perCrim{
+        top: 20.8%;
+    }
+    .perDipl{
+        top: 24.4%;
+    }
+    .perEnga{ 
+        top: 28%;
+    }
+    
+    .perFort{
+        top: 31.6%;
+    }
+    
+    .perFurt{
+        top: 35.1%;
+    }
+    
+    .perInic{
+        top: 38.7%;
+    }
+    
+    .perInti{
+        top: 42.3%;
+    }
+    
+    .perIntui{
+        top: 45.9%;
+    }
+    
+    .perInve{
+        top: 49.4%;
+    }
+    
+    .perLuta{
+        top: 53%;
+    }
+    
+    .perMedi{
+        top: 56.5%;
+    }
+    
+    .perOcul{ 
+        top: 60%;
+    }
+    
+    .perPerc{
+        top: 63.6%;
+    }
+    
+    .perPilo{
+        top: 67.1%;
+    }
+    
+    .perPont{
+        top: 70.7%;
+    }
+    
+    .profissao{
+        padding: 0.5%;
+        width: 37.8%;
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 18px);
+        color: #333;
+        border: none;
+        border-radius: 2%; 
+        border-bottom: #333; 
+        background-color: transparent;
+    }
+    
+    .perProf{
+        top: 74.3%;
+    }
+    
+    .perRefl{
+        top: 77.9%;
+    }
+    
+    .perReli{
+        top: 81.4%;
+    }
+    
+    .perSobr{
+        top: 85%;
+    }
+    
+    .perTati{
+        top: 88.6%;
+    }
+    
+    .perTecn{
+        top: 92.2%;
+    }
+    
+    .perVont{
+        top: 95.9%;
+    }
+    
+    
+    
+    /* SAUDE */
+    .blackSaude{
+        position: absolute; 
+        background-color: #333;
+        width: 25%;
+        padding: 2%;
+        border: 3px solid black;
+        border-radius: 2%;  
+        top: 120%;
+        left: 3%;
+        box-shadow:  -5.5px 6.5px 0  #4444;
+    }
+    
+    .txtBlackSaude{
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 24px);
+        position: absolute;
+        top: 30%;
+        left: 40%;
+        color: #ffff;
+        background-color: #333;
+    }
+    
+    .descricao{
+        position: absolute;
+        display: contents;
+        width: 35%;
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 15px);
+        color: #6a6a6a;
+    }
+    
+    /* VIDA */
+    .posicaoSaude{
+        position: absolute;
+        top: 130%;
+        left: 3.5%;
+        width: 25%;
+    }
+    
+    .txtSaude{
+        position: absolute;
+        width: 100%;
+        padding: 0.5%;
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 25px);
+        color: #333;
+    }
+    
+    .pontosVidaMax{
+        position: absolute; 
+        background-color: #ffff;
+        width: 10%;
+        padding: 0.5%;
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 17px);
+        text-align: center;
+        color: #333;
+        border: 3px solid black;
+        border-radius: 2%; 
+        left: 3.5%;
+        bottom: -42%;
+    }
+    
+    .pontosVidaMin{
+        position: absolute; 
+        background-color: #ffff;
+        width: 10%;
+        padding: 0.5%;
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 17px);
+        text-align: center;
+        color: #333;
+        border: 3px solid black;
+        border-radius: 2%; 
+        left: 14.5%;
+        bottom: -42%;
+    }
+    
+    /* SANIDADE */
+    .posicaoSanidade{
+        position: absolute;
+        top: 144%;
+        left: 3.5%;
+        width: 25%;
+        background-color: none;
+    }
+    
+    .txtSanidade{
+        position: absolute;
+        width: 100%;
+        padding: 0.5%;
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 25px);
+        color: #333;
+    }
+    
+    .pontosSanidadeMax{
+        position: absolute; 
+        background-color: #ffff;
+        width: 10%;
+        padding: 0.5%;
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 17px);
+        text-align: center;
+        color: #333;
+        border: 3px solid black;
+        border-radius: 2%; 
+        left: 3.5%;
+        bottom: -55.5%;
+    }
+    
+    .pontosSanidadeMin{
+        position: absolute; 
+        background-color: #ffff;
+        width: 10%;
+        padding: 0.5%;
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 17px);
+        text-align: center;
+        color: #333;
+        border: 3px solid black;
+        border-radius: 2%; 
+        left: 14.5%;
+        bottom: -55.5%;
+    }
+    
+    /* ESFORÇO */
+    .posicaoEsforco{
+        position: absolute;
+        top: 158.5%;
+        left: 3.5%;
+        width: 25%;
+    }
+    
+    .txtEsforco{
+        position: absolute;
+        width: 100%;
+        padding: 0.5%;
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 25px);
+        color: #333;
+    }
+    
+    .pontosEsforcoMax{
+        position: absolute; 
+        background-color: #ffff;
+        width: 10%;
+        padding: 0.5%;
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 17px);
+        text-align: center;
+        color: #333;
+        border: 3px solid black;
+        border-radius: 2%; 
+        left: 3.5%;
+        bottom: -70%;
+    }
+    
+    .pontosEsforcoMin{
+        position: absolute; 
+        background-color: #ffff;
+        width: 10%;
+        padding: 0.5%;
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 17px);
+        text-align: center;
+        color: #333;
+        border: 3px solid black;
+        border-radius: 2%; 
+        left: 14.5%;
+        bottom: -70%;
+    }
+    
+    /* RESISTÊNCIA */
+    .blackResistencia{
+        position: absolute; 
+        background-color: #333;
+        width: 25%;
+        padding: 2%;
+        border: 3px solid black;
+        border-radius: 2%;  
+        top: 120%;
+        left: 32%;
+        box-shadow:  -5.5px 6.5px 0  #4444;
+    }
+    
+    .txtBlackResistencia{
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 24px);
+        position: absolute;
+        top: 30%;
+        left: 30%;
+        color: #ffff;
+        background-color: #333;
+    }
+    
+    /* RESISTÊNCIA */
+    .posicaoFisica{
+        position: absolute;
+        width: 25%;
+        left: 32%;
+        bottom: -36.5%;
+    }
+    
+    .txtFisica{
+        position: absolute;
+        width: 28%;
+        padding: 0.5%;
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 25px);
+        color: #333;
+        top: -80%;
+        text-align: center;
+        
+        
+    }
+    
+    .pontosFis{
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 17px);
+        text-align: center;
+        position: absolute;
+        width: 30%;
+        padding: 2.5%;
+        border: 3px solid black;
+        border-radius: 2%; 
+        background-color: #ffff;
+    }
+    
+    /* BALISTICA */
+    .posicaoBalistica{
+        position: absolute;
+        width: 25%;
+        left: 40.5%;
+        bottom: -36.5%;
+    }
+    
+    .txtBalistica{
+        position: absolute;
+        width: 28%;
+        padding: 0.5%;
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 25px);
+        color: #333;
+        top: -80%;
+        text-align: center;  
+    }
+    
+    .pontosBalis{
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 17px);
+        text-align: center;
+        position: absolute;
+        width: 30%;
+        padding: 2.5%;
+        border: 3px solid black;
+        border-radius: 2%; 
+        background-color: #ffff;
+    }
+    
+    /* SANIDADE */
+    .posicaoSani{
+        position: absolute;
+        width: 25%;
+        left: 49%;
+        bottom: -36.5%;
+        padding: 0%;
+    }
+    
+    .txtSani{
+        position: absolute;
+        width: 28%;
+        padding: 0.5%;
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 25px);
+        color: #333;
+        top: -80%;
+        text-align: center; 
+    }
+    
+    .pontosSani{
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 17px);
+        text-align: center;
+        position: absolute;
+        width: 30%;
+        padding: 2.5%;
+        border: 3px solid black;
+        border-radius: 2%; 
+        text-align: center;
+        background-color: #ffff;
+    }
+    
+    /* DEFESA */
+    .blackDefesa{
+        position: absolute; 
+        background-color: #333;
+        width: 25%;
+        padding: 2%;
+        border: 3px solid black;
+        border-radius: 2%;  
+        top: 146%;
+        left: 32%;
+        box-shadow:  -5.5px 6.5px 0  #4444;
+    }
+    
+    .txtDefesa{
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 24px);
+        position: absolute;
+        top: 30%;
+        left: 30.5%;
+        color: #ffff;
+        padding-left: 5%;
+        background-color: #333;
+    }
+    
+    /* PASSIVA */
+    .posicaoDef{
+        position: absolute;
+        top: 158%;
+        left: 31.5%;
+        width: 25%;
+    }
+    
+    .txtDef{
+        position: absolute;
+        width: 43%;
+        padding: 0.5%;
+        left: 10%;
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 24px);
+        color: #333;
+        padding-top: 2%;
+    }
+    
+    .pontosDEF{
+        position: absolute; 
+        background-color: #ffff;
+        width: 10%;
+        padding: 0.5%;
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 17px);
+        text-align: center;
+        color: #333;
+        border: 3px solid black;
+        border-radius: 2%; 
+        left: 32%;
+        bottom: -70%;
+    }
+    
+    /* ESQUIVA */
+    .posicaoEsq{
+        position: absolute;
+        top: 158%;
+        left: 43.5%;
+        width: 25%;
+    }
+    
+    .txtEsq{
+        position: absolute;
+        width: 30%;
+        left: 12%;
+        padding: 0.5%;
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 24px);
+        color: #333;
+        padding-top: 2%;
+    }
+    
+    .pontosEsq{
+        position: absolute; 
+        background-color: #ffff;
+        width: 10%;
+        padding: 0.5%;
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 17px);
+        text-align: center;
+        color: #333;
+        border: 3px solid black;
+        border-radius: 2%; 
+        left: 45%;
+        bottom: -70%;
+    }
+    
+    /* ARMAS */
+    .titleArmas{
+        position: absolute; 
+        background-color: #333;
+        width: 80%;
+        padding: 2%;
+        border: 3px solid black;
+        border-radius: 2%;  
+        top: 180%;
+        left: 10%;
+        box-shadow:  -5.5px 6.5px 0  #4444;  
+    }
+    
+    .txtArmas{
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 24px);
+        position: absolute;
+        top: 30%;
+        left: 38%;
+        color: #ffff;
+        padding-left: 5%;
+        background-color: #333;
+    }
+    
+    /* ARMAS - Campo de digitação*/
+    .boxArmas{
+        position: absolute; 
+        border: 3px solid #333;
+        background-color: #4444;
+        width: 80%;
+        height: 30%;
+        padding: 2%; 
+        bottom: -130%;
+        left: 10%;
+    }
+    
+    .txtBox{
+        font-weight: 800;
+        font-size: clamp(8px, 1.5vw, 24px);
+        position: absolute;
+        top: -20%;
+        left: 5%;
+        color: #333;
+    }
+    
+    input.bxL{
+        position: absolute;
+        background-color: #ffff;
+        width: 95%;
+        padding: 0.5%;
+        padding-bottom:- 30px;
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 16px);
+        color: #333;
+    }
+    
+    .linha1{
+        top: 3%;
+    }
+    .linha2{
+        top: 23%;
+    }
+    .linha3{
+        top: 43%;
+    }
+    .linha4{
+        top: 63%;
+    }
+    
+    .linha5{
+        top: 83%;
+    }
+    .bag{
+        width: 3%;
+    }
+    
+    /*barra preta do inventario*/
+    .titleInventario{
+        position: absolute; 
+        background-color: #333;
+        width: 80%;
+        padding: 0.5%;
+        border: 3px solid black;
+        border-radius: 2%;  
+        top: 240%;
+        left: 10%;
+        box-shadow:  -5.5px 6.5px 0  #4444;
+    }
+    
+    .txtInventario{
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 24px);
+        position: absolute;
+        top: 30%;
+        left: 38%;
+        color: #ffff;
+        padding-left: 5%;
+        background-color: #333;
+    }
+    
+    /*Itens*/
+    .titleDetalhe{
+        position: absolute; 
+        border: 3px solid #333;
+        background-color: #4444;
+        width: 30%;
+        padding: 2%; 
+        height: 50%;
+        bottom: -200%;
+        left: 10%;
+    }
+    
+    /*Detalhes*/
+    .titleDeta{
+        position: absolute; 
+        border: 3px solid #333;
+        background-color: #4444;
+        width: 30%;
+        padding: 2%; 
+        height: 50%;
+        bottom: -200%;
+        left: 40%; 
+    }
+    
+    /*Input do item e detalhes*/
+    .txtItem, .txtDeta{
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 24px);
+        position: absolute;
+        top: 5%;
+        color: #333;
+    }
+    
+    input.bxI, input.bxD{
+        position: absolute;
+        background-color: #ffff;
+        width: 85%;
+        padding: 0.5%;
+        padding-bottom:- 30px;
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 17px);
+        color: #333;
+    }
+    
+    /*Espaço*/
+    .titleEspaco{
+        position: absolute; 
+        border: 3px solid #333;
+        background-color: #4444;
+        width: 10%;
+        height: 50%;
+        bottom: -200%;
+        padding: 2%; 
+        left: 70%;
+    }
+    
+    /*Peso*/
+    .titlePeso{
+        position: absolute; 
+        border: 3px solid #333;
+        background-color: #4444;
+        width: 10%;
+        padding: 2%; 
+        height: 50%;
+        bottom: -200%;
+        left: 80%;
+    }
+    
+    .txtEspa, .txtPeso{
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 24px);
+        position: absolute;
+        top: 5%;
+        color: #333;
+    }
+    
+    input.bxE, input.bxP{
+        position: absolute;
+        text-align: center;
+        background-color: #ffff;
+        width: 60%;
+        padding: 0.5%;
+        padding-bottom:- 30px;
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 17px);
+        color: #333;
+    }
+    
+    .boxItem8, .boxDeta8, .boxEspa8, .boxPeso8 {
+        top: 85%;
+    }
+    .boxItem7, .boxDeta7, .boxEspa7, .boxPeso7 {
+        top: 75%;
+    }
+    .boxItem6, .boxDeta6, .boxEspa6, .boxPeso6 {
+        top: 65%;
+    }
+    .boxItem5, .boxDeta5, .boxEspa5, .boxPeso5 {
+        top: 55%;
+    }
+    .boxItem4, .boxDeta4, .boxEspa4, .boxPeso4 {
+        top: 45%;
+    }
+    .boxItem3, .boxDeta3, .boxEspa3, .boxPeso3 {
+        top: 35%;
+    }
+    .boxItem2, .boxDeta2, .boxEspa2, .boxPeso2 {
+        top: 25%;
+    }
+    .boxItem1, .boxDeta1, .boxEspa1, .boxPeso1 {
+        top: 15%;
+    }
+    
+    /* Retornar o valor*/
+    .somaPesoEspaco{
+        position: absolute; 
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 14px);
+        background-color: #333;
+        color: #ffff;
+        width: 30%;
+        padding: 0.5%;
+        border: 3px solid black;
+        border-radius: 2%;  
+        bottom: -207%;
+        right: 10%;
+    }
+    
+    .boxSomaPeso, .boxSomaEspa{
+        position: absolute 1fr;
+        width: 27%;
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 14px);
+        color: red;
+        text-align: center;
+        outline: none;
+    }
+    
+    /*Caracteristicas*/
+    .titleCarac{
+        position: absolute; 
+        background-color: #333;
+        width: 80%;
+        padding: 2%;
+        border: 3px solid black;
+        border-radius: 2%;  
+        bottom: -220%;
+        left: 10%;
+        box-shadow:  -5.5px 6.5px 0  #4444;
+    }
+    
+    .txtCarac{
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 24px);
+        position: absolute;
+        top: 30%;
+        left: 38%;
+        color: #ffff;
+        padding-left: 5%;
+        background-color: #333;
+    }
+    
+    .boxCarac{
+        position: absolute;
+        background-color: #4444;
+        width: 80%;
+        height: 30%;
+        padding: 2%;
+        border: 3px solid black;
+        bottom: -250%;
+        left: 10%;
+    }
+    
+    .blocoCarac{
+        position: absolute;
+        background-color: #ffff;
+        width: 95%;
+        height: 70%;
+        padding: 0.5%;
+        padding-bottom:- 30px;
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 16px);
+        color: #333;
+    }
+    /*Habilidades*/
+    
+    .titleHab{
+        position: absolute; 
+        background-color: #333;
+        width: 80%;
+        padding: 2%;
+        border: 3px solid black;
+        border-radius: 2%;  
+        bottom: -270%;
+        left: 10%;
+        box-shadow:  -5.5px 6.5px 0  #4444;
+    }
+    
+    .txtHab{
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 24px);
+        position: absolute;
+        top: 30%;
+        left: 38%;
+        color: #ffff;
+        padding-left: 5%;
+        background-color: #333;
+    }
+    
+    .boxHab{
+        position: absolute;
+        background-color: #4444;
+        width: 80%;
+        height: 30%;
+        padding: 2%;
+        border: 3px solid black;
+        bottom: -300%;
+        left: 10%;
+    }
+    
+    .blocoHab{
+        position: absolute;
+        background-color: #ffff;
+        width: 95%;
+        height: 70%;
+        padding: 0.5%;
+        padding-bottom:- 30px;
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 16px);
+        color: #333;
+    }
+    
+    /*----------------------------- FIM -----------------------------*/
+    
+    .boxBtn{
+        position: absolute;
+        width: 30%;
+        height: 15%;
+        padding: 2%;
+        border: 3px solid #333;
+        border-radius: 6px;
+        bottom: -320%;
+        right: 10%;
+    }
+    
+    button.btn{
+        position: absolute;
+        width: 25%;
+        height: 10%;
+        padding: 3%;
+        font-weight: 800;
+        font-size: clamp(8px, 1.5vw, 22px);
+        border: 3px solid #333;
+        border-radius: 6px;
+        box-shadow:  -5.5px 6.5px 0  #4444;
+        color: #333;
+        padding-bottom: 7%;
+        padding-top: 2%;
+    }
+    
+    button:active{
+        position: absolute;
+        box-shadow: inset -4px 4px 0 #4444;;
+        font-size: 0.9rem;
+        font-size: clamp(8px, 2vw, 22px);
+    }
+    
+    .salvar{
+        position: absolute;
+        background-color: rgb(88, 249, 104);
+        left: 8.5%;
+        
+    }
+    .atualizar{
+        position: absolute;
+        background-color: rgb(91, 102, 252);
+        left: 39%;
+    }
+    
+    .apagar{
+        position: absolute;
+        background-color: rgb(252, 67, 67);
+        left: 69.5%;
+    }
+    
+    
+    
+
+}
+
+@media(max-width: 1520px){
+
+    html{
+        overflow-y: scroll;
+        background-color: #4444;
+        
+    }
+    
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Oxanium', cursive;
+        background-color: none;
+        
+    }
+    
+    .logo{
+        position: absolute;
+        width: 12%;
+        padding-top: 3%;
+        left: 3%;
+    }
+    
+    
+    /*Div*/
+    .nomeJogador{  
+        width: 35%;
+        position: absolute; 
+        left: 32%;
+        top: 6%;
+        font-size: clamp(8px, 4vw, 30px);
+        font-weight: 800;
+        text-align: center;
+    }
+    
+    /*texto*/
+    .txtNome{
+        padding-left: 20%;
+        color: #333;
+        width: 100%;
+    
+    }
+    
+    /*Caixa do texto digitado*/
+    .boxNome{
+        width: 100%;
+        left: 10%;
+        padding: 2%;
+        border: 3px solid black;
+        box-shadow: -4px 5px 0  #333;
+        border-radius: 30px;
+        position: absolute; 
+        font-size: clamp(8px, 4vw, 20px);
+        text-align: center;
+        outline: none;
+    }
+    
+    /*Div*/
+    .idadeJogador{  
+        width: 15%;
+        position: absolute; 
+        left: 20%;
+        top: 25%;
+        
+        font-size: clamp(8px, 4vw, 30px);
+        font-weight: 800;
+        text-align: center;
+    }
+    
+    /*texto*/
+    .txtIdade{
+        padding-left: 20%;
+        color: #333;
+        width: 100%;
+    
+    }
+    
+    /*Caixa do texto digitado*/
+    .boxAltura{
+        width: 100%;
+        left: 10%;
+        padding: 2%;
+        border: 3px solid black;
+        box-shadow: -3px 4px 0  #333;
+        border-radius: 30px;
+        position: absolute; 
+        font-size: clamp(8px, 4vw, 20px);
+        text-align: center;
+        outline: none;
+    }
+    
+    /*Div*/
+    .alturaJogador{  
+        width: 15%;
+        position: absolute; 
+        left: 44%;
+        top: 25%;  
+        font-size: clamp(8px, 4vw, 30px);
+        font-weight: 800;
+        text-align: center;
+    }
+    
+    /*texto*/
+    .txtAltura{
+        padding-left: 20%;
+        color: #333;
+        width: 100%;
+    
+    }
+    
+    /*Caixa do texto digitado*/
+    .boxIdade{
+        width: 100%;
+        left: 10%;
+        padding: 2%;
+        border: 3px solid black;
+        box-shadow: -3px 4px 0  #333;
+        border-radius: 30px;
+        position: absolute; 
+        font-size: clamp(8px, 4vw, 20px);
+        text-align: center;
+        outline: none;
+    }
+    
+    /*Div*/
+    .origemJogador{  
+        width: 15%;
+        position: absolute; 
+        left: 68%;
+        top: 25%;
+        font-size: clamp(8px, 4vw, 30px);
+        font-weight: 800;
+        text-align: center;
+    }
+    
+    /*texto*/
+    .txtOrigem{
+        padding-left: 20%;
+        color: #333;
+        width: 100%;
+    }
+    
+    /*Caixa do texto digitado*/
+    .boxOrigem{
+        width: 100%;
+        left: 10%;
+        padding: 2%;
+        border: 3px solid black;
+        box-shadow: -3px 4px 0  #333;
+        border-radius: 30px;
+        position: absolute; 
+        font-size: clamp(8px, 4vw, 20px);
+        text-align: center;
+        outline: none;
+    }
+    /* ----------- Sair ----------- */
+    
+    .boxSair{
+        position: absolute;
+        width: 7%;
+        top: 8%;
+        left: 86%;
+        background-color: rgb(251, 58, 58) ;
+        border: 3px solid black;
+        box-shadow: -3px 4px 0  #333;
+        border-radius: 30px;
+        position: absolute; 
+        font-weight: 800;
+        font-size: clamp(8px, 4vw, 22px);
+        text-align: center;
+        outline: none;
+    
+    }
+    
+    .textSair{
+        text-decoration: none;
+        color: #ffff;
+        background-color: none;
+    }
+    
+    /* ----------- ATRIBUTOSS ----------- */
+    .txtAtributo{
+        padding-left: 75%;
+        color: #333;
+        width: 60%;
+        font-weight: 800;
+        font-size: clamp(8px, 4vw, 24px);  
+    }
+    
+    .FOR{
+        position: absolute;
+        top: 50%;
+        left: 14.5%;
+        width: 7%;
+        text-align: center;
+    }
+    
+    .atributoFor{
+        position: absolute; 
+        text-align: center;
+        font-size: clamp(8px, 4vw, 20px);
+        width: 100%;
+        padding: 30%;
+        border: 3px solid black;
+        box-shadow: -3px 4px 0  #333;
+        border-radius: 50%;
+        outline: none;
+    }
+    
+    .INT{
+        position: absolute;
+        top: 66%;
+        left: 4.5%;
+        width: 7%;
+        text-align: center;
+    }
+    
+    .atributoInt{
+        position: absolute; 
+        font-size: clamp(8px, 4vw, 20px);
+        width: 100%;
+        padding: 30%;
+        border: 3px solid black;
+        box-shadow: -3px 4px 0  #333;
+        border-radius: 50%;
+        outline: none;
+        text-align: center;
+    }
+    
+    .PRE{
+        position: absolute;
+        top: 66%;
+        left: 24.5%;
+        width: 7%;
+        text-align: center;
+    }
+    
+    .atributoPre{
+        position: absolute; 
+        font-size: clamp(8px, 4vw, 20px);
+        width: 100%;
+        padding: 30%;
+        border: 3px solid black;
+        box-shadow: -3px 4px 0  #333;
+        border-radius: 50%;
+        outline: none;
+        text-align: center;
+    }
+    
+    .AGI{
+        position: absolute;
+        top: 86%;
+        left: 8.5%;
+        width: 7%;
+        text-align: center;
+    }
+    
+    .atributoAgi{
+        position: absolute; 
+        font-size: clamp(8px, 4vw, 20px);
+        width: 100%;
+        padding: 30%;
+        border: 3px solid black;
+        box-shadow: -3px 4px 0  #333;
+        border-radius: 50%;
+        outline: none;
+        text-align: center;
+    }
+    
+    .VIG{
+        position: absolute;
+        top: 86%;
+        left: 21.5%;
+        width: 7%;
+        text-align: center;
+    }
+    
+    .atributoVig{
+        position: absolute; 
+        font-size: clamp(8px, 4vw, 20px);
+        width: 100%;
+        padding: 30%;
+        border: 3px solid black;
+        border-radius: 50%;
+        box-shadow: -3px 4px 0  #333;
+        outline: none;
+        text-align: center;
+    }
+    
+    .blackAtributo{
+        position: absolute; 
+        background-color: #333;
+        width: 8.5%;
+        padding: 4%;
+        border: 3px solid black;
+        border-radius: 50%;  
+        top: 70%;
+        left: 17%;
+        box-shadow: -3px 4px 0  #333;
+    }
+    
+    .txtBlackAtributo{
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 18px);
+        background-color: #333;
+        position: absolute;
+        top: 40%;
+        left: 14.5%;
+        color: #ffff;
+    }
+    
+    .blackPericia{
+        position: absolute; 
+        background-color: #333;
+        width: 37%;
+        padding: 2%;
+        border: 3px solid black;
+        border-radius: 2%;  
+        top: 40%;
+        right: 3.5%;
+        box-shadow:  -5.5px 6.5px 0  #4444;
+    }
+    
+    .txtBlackPericia{
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 24px);
+        position: absolute;
+        top: 30%;
+        left: 40.5%;
+        color: #ffff;
+        background-color: #333;
+    }
+    
+    .pericia{
+        position: absolute;
+        top: 52%;
+        left: 60.5%;
+    }
+    
+    /* pericias */
+    input.teste{
+        text-align: center;
+        position: absolute; 
+        background-color: #ffff;
+        width: 35%;
+        padding: 0.5%;
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 16px);
+        color: #333;
+        border: 3px solid black;
+        border-radius: 2%;  
+        right: -31%;
+    }
+    
+    .nomePericia{
+        position: absolute;
+        display: contents;
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 24px);
+        padding-left: 33%; /*certo*/
+    }
+    
+    .nomeDado{
+    color: #6a6a6a;
+    left: 60.5%;
+    }
+    
+    .perAcro{
+        top: -0.8%;
+    }
+    
+    .perAdes{ 
+        top: 2.8%;
+    }
+    
+    .perArte{
+        top: 6.4%;
+    }
+    
+    .perAtle{
+        top: 10%; 
+    }
+    
+    .perAtua{ 
+        top: 13.6%; 
+    }
+    .perCien{
+        top: 17.2%;
+    }
+    .perCrim{
+        top: 20.8%;
+    }
+    .perDipl{
+        top: 24.4%;
+    }
+    .perEnga{ 
+        top: 28%;
+    }
+    
+    .perFort{
+        top: 31.6%;
+    }
+    
+    .perFurt{
+        top: 35.1%;
+    }
+    
+    .perInic{
+        top: 38.7%;
+    }
+    
+    .perInti{
+        top: 42.3%;
+    }
+    
+    .perIntui{
+        top: 45.9%;
+    }
+    
+    .perInve{
+        top: 49.4%;
+    }
+    
+    .perLuta{
+        top: 53%;
+    }
+    
+    .perMedi{
+        top: 56.5%;
+    }
+    
+    .perOcul{ 
+        top: 60%;
+    }
+    
+    .perPerc{
+        top: 63.6%;
+    }
+    
+    .perPilo{
+        top: 67.1%;
+    }
+    
+    .perPont{
+        top: 70.7%;
+    }
+    
+    .profissao{
+        padding: 0.5%;
+        width: 37.8%;
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 18px);
+        color: #333;
+        border: none;
+        border-radius: 2%; 
+        border-bottom: #333; 
+        background-color: transparent;
+    }
+    
+    .perProf{
+        top: 74.3%;
+    }
+    
+    .perRefl{
+        top: 77.9%;
+    }
+    
+    .perReli{
+        top: 81.4%;
+    }
+    
+    .perSobr{
+        top: 85%;
+    }
+    
+    .perTati{
+        top: 88.6%;
+    }
+    
+    .perTecn{
+        top: 92.2%;
+    }
+    
+    .perVont{
+        top: 95.9%;
+    }
+    
+    
+    
+    /* SAUDE */
+    .blackSaude{
+        position: absolute; 
+        background-color: #333;
+        width: 25%;
+        padding: 2%;
+        border: 3px solid black;
+        border-radius: 2%;  
+        top: 120%;
+        left: 3%;
+        box-shadow:  -5.5px 6.5px 0  #4444;
+    }
+    
+    .txtBlackSaude{
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 24px);
+        position: absolute;
+        top: 30%;
+        left: 40%;
+        color: #ffff;
+        background-color: #333;
+    }
+    
+    .descricao{
+        position: absolute;
+        display: contents;
+        width: 35%;
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 15px);
+        color: #6a6a6a;
+    }
+    
+    /* VIDA */
+    .posicaoSaude{
+        position: absolute;
+        top: 130%;
+        left: 3.5%;
+        width: 25%;
+    }
+    
+    .txtSaude{
+        position: absolute;
+        width: 100%;
+        padding: 0.5%;
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 25px);
+        color: #333;
+    }
+    
+    .pontosVidaMax{
+        position: absolute; 
+        background-color: #ffff;
+        width: 10%;
+        padding: 0.5%;
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 17px);
+        text-align: center;
+        color: #333;
+        border: 3px solid black;
+        border-radius: 2%; 
+        left: 3.5%;
+        bottom: -42%;
+    }
+    
+    .pontosVidaMin{
+        position: absolute; 
+        background-color: #ffff;
+        width: 10%;
+        padding: 0.5%;
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 17px);
+        text-align: center;
+        color: #333;
+        border: 3px solid black;
+        border-radius: 2%; 
+        left: 14.5%;
+        bottom: -42%;
+    }
+    
+    /* SANIDADE */
+    .posicaoSanidade{
+        position: absolute;
+        top: 144%;
+        left: 3.5%;
+        width: 25%;
+        background-color: none;
+    }
+    
+    .txtSanidade{
+        position: absolute;
+        width: 100%;
+        padding: 0.5%;
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 25px);
+        color: #333;
+    }
+    
+    .pontosSanidadeMax{
+        position: absolute; 
+        background-color: #ffff;
+        width: 10%;
+        padding: 0.5%;
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 17px);
+        text-align: center;
+        color: #333;
+        border: 3px solid black;
+        border-radius: 2%; 
+        left: 3.5%;
+        bottom: -55.5%;
+    }
+    
+    .pontosSanidadeMin{
+        position: absolute; 
+        background-color: #ffff;
+        width: 10%;
+        padding: 0.5%;
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 17px);
+        text-align: center;
+        color: #333;
+        border: 3px solid black;
+        border-radius: 2%; 
+        left: 14.5%;
+        bottom: -55.5%;
+    }
+    
+    /* ESFORÇO */
+    .posicaoEsforco{
+        position: absolute;
+        top: 158.5%;
+        left: 3.5%;
+        width: 25%;
+    }
+    
+    .txtEsforco{
+        position: absolute;
+        width: 100%;
+        padding: 0.5%;
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 25px);
+        color: #333;
+    }
+    
+    .pontosEsforcoMax{
+        position: absolute; 
+        background-color: #ffff;
+        width: 10%;
+        padding: 0.5%;
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 17px);
+        text-align: center;
+        color: #333;
+        border: 3px solid black;
+        border-radius: 2%; 
+        left: 3.5%;
+        bottom: -70%;
+    }
+    
+    .pontosEsforcoMin{
+        position: absolute; 
+        background-color: #ffff;
+        width: 10%;
+        padding: 0.5%;
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 17px);
+        text-align: center;
+        color: #333;
+        border: 3px solid black;
+        border-radius: 2%; 
+        left: 14.5%;
+        bottom: -70%;
+    }
+    
+    /* RESISTÊNCIA */
+    .blackResistencia{
+        position: absolute; 
+        background-color: #333;
+        width: 25%;
+        padding: 2%;
+        border: 3px solid black;
+        border-radius: 2%;  
+        top: 120%;
+        left: 32%;
+        box-shadow:  -5.5px 6.5px 0  #4444;
+    }
+    
+    .txtBlackResistencia{
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 24px);
+        position: absolute;
+        top: 30%;
+        left: 30%;
+        color: #ffff;
+        background-color: #333;
+    }
+    
+    /* RESISTÊNCIA */
+    .posicaoFisica{
+        position: absolute;
+        width: 25%;
+        left: 32%;
+        bottom: -36.5%;
+    }
+    
+    .txtFisica{
+        position: absolute;
+        width: 28%;
+        padding: 0.5%;
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 25px);
+        color: #333;
+        top: -80%;
+        text-align: center;
+        
+        
+    }
+    
+    .pontosFis{
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 17px);
+        text-align: center;
+        position: absolute;
+        width: 30%;
+        padding: 2.5%;
+        border: 3px solid black;
+        border-radius: 2%; 
+        background-color: #ffff;
+    }
+    
+    /* BALISTICA */
+    .posicaoBalistica{
+        position: absolute;
+        width: 25%;
+        left: 40.5%;
+        bottom: -36.5%;
+    }
+    
+    .txtBalistica{
+        position: absolute;
+        width: 28%;
+        padding: 0.5%;
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 25px);
+        color: #333;
+        top: -80%;
+        text-align: center;  
+    }
+    
+    .pontosBalis{
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 17px);
+        text-align: center;
+        position: absolute;
+        width: 30%;
+        padding: 2.5%;
+        border: 3px solid black;
+        border-radius: 2%; 
+        background-color: #ffff;
+    }
+    
+    /* SANIDADE */
+    .posicaoSani{
+        position: absolute;
+        width: 25%;
+        left: 49%;
+        bottom: -36.5%;
+        padding: 0%;
+    }
+    
+    .txtSani{
+        position: absolute;
+        width: 28%;
+        padding: 0.5%;
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 25px);
+        color: #333;
+        top: -80%;
+        text-align: center; 
+    }
+    
+    .pontosSani{
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 17px);
+        text-align: center;
+        position: absolute;
+        width: 30%;
+        padding: 2.5%;
+        border: 3px solid black;
+        border-radius: 2%; 
+        text-align: center;
+        background-color: #ffff;
+    }
+    
+    /* DEFESA */
+    .blackDefesa{
+        position: absolute; 
+        background-color: #333;
+        width: 25%;
+        padding: 2%;
+        border: 3px solid black;
+        border-radius: 2%;  
+        top: 146%;
+        left: 32%;
+        box-shadow:  -5.5px 6.5px 0  #4444;
+    }
+    
+    .txtDefesa{
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 24px);
+        position: absolute;
+        top: 30%;
+        left: 30.5%;
+        color: #ffff;
+        padding-left: 5%;
+        background-color: #333;
+    }
+    
+    /* PASSIVA */
+    .posicaoDef{
+        position: absolute;
+        top: 158%;
+        left: 31.5%;
+        width: 25%;
+    }
+    
+    .txtDef{
+        position: absolute;
+        width: 43%;
+        padding: 0.5%;
+        left: 10%;
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 24px);
+        color: #333;
+        padding-top: 2%;
+    }
+    
+    .pontosDEF{
+        position: absolute; 
+        background-color: #ffff;
+        width: 10%;
+        padding: 0.5%;
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 17px);
+        text-align: center;
+        color: #333;
+        border: 3px solid black;
+        border-radius: 2%; 
+        left: 32%;
+        bottom: -70%;
+    }
+    
+    /* ESQUIVA */
+    .posicaoEsq{
+        position: absolute;
+        top: 158%;
+        left: 43.5%;
+        width: 25%;
+    }
+    
+    .txtEsq{
+        position: absolute;
+        width: 30%;
+        left: 12%;
+        padding: 0.5%;
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 24px);
+        color: #333;
+        padding-top: 2%;
+    }
+    
+    .pontosEsq{
+        position: absolute; 
+        background-color: #ffff;
+        width: 10%;
+        padding: 0.5%;
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 17px);
+        text-align: center;
+        color: #333;
+        border: 3px solid black;
+        border-radius: 2%; 
+        left: 45%;
+        bottom: -70%;
+    }
+    
+    /* ARMAS */
+    .titleArmas{
+        position: absolute; 
+        background-color: #333;
+        width: 80%;
+        padding: 2%;
+        border: 3px solid black;
+        border-radius: 2%;  
+        top: 180%;
+        left: 10%;
+        box-shadow:  -5.5px 6.5px 0  #4444;  
+    }
+    
+    .txtArmas{
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 24px);
+        position: absolute;
+        top: 30%;
+        left: 38%;
+        color: #ffff;
+        padding-left: 5%;
+        background-color: #333;
+    }
+    
+    /* ARMAS - Campo de digitação*/
+    .boxArmas{
+        position: absolute; 
+        border: 3px solid #333;
+        background-color: #4444;
+        width: 80%;
+        height: 30%;
+        padding: 2%; 
+        bottom: -130%;
+        left: 10%;
+    }
+    
+    .txtBox{
+        font-weight: 800;
+        font-size: clamp(8px, 1.5vw, 24px);
+        position: absolute;
+        top: -20%;
+        left: 5%;
+        color: #333;
+    }
+    
+    input.bxL{
+        position: absolute;
+        background-color: #ffff;
+        width: 95%;
+        padding: 0.5%;
+        padding-bottom:- 30px;
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 16px);
+        color: #333;
+    }
+    
+    .linha1{
+        top: 3%;
+    }
+    .linha2{
+        top: 23%;
+    }
+    .linha3{
+        top: 43%;
+    }
+    .linha4{
+        top: 63%;
+    }
+    
+    .linha5{
+        top: 83%;
+    }
+    .bag{
+        width: 3%;
+    }
+    
+    /*barra preta do inventario*/
+    .titleInventario{
+        position: absolute; 
+        background-color: #333;
+        width: 80%;
+        padding: 0.5%;
+        border: 3px solid black;
+        border-radius: 2%;  
+        top: 240%;
+        left: 10%;
+        box-shadow:  -5.5px 6.5px 0  #4444;
+    }
+    
+    .txtInventario{
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 24px);
+        position: absolute;
+        top: 30%;
+        left: 38%;
+        color: #ffff;
+        padding-left: 5%;
+        background-color: #333;
+    }
+    
+    /*Itens*/
+    .titleDetalhe{
+        position: absolute; 
+        border: 3px solid #333;
+        background-color: #4444;
+        width: 30%;
+        padding: 2%; 
+        height: 50%;
+        bottom: -200%;
+        left: 10%;
+    }
+    
+    /*Detalhes*/
+    .titleDeta{
+        position: absolute; 
+        border: 3px solid #333;
+        background-color: #4444;
+        width: 30%;
+        padding: 2%; 
+        height: 50%;
+        bottom: -200%;
+        left: 40%; 
+    }
+    
+    /*Input do item e detalhes*/
+    .txtItem, .txtDeta{
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 24px);
+        position: absolute;
+        top: 5%;
+        color: #333;
+    }
+    
+    input.bxI, input.bxD{
+        position: absolute;
+        background-color: #ffff;
+        width: 85%;
+        padding: 0.5%;
+        padding-bottom:- 30px;
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 17px);
+        color: #333;
+    }
+    
+    /*Espaço*/
+    .titleEspaco{
+        position: absolute; 
+        border: 3px solid #333;
+        background-color: #4444;
+        width: 10%;
+        height: 50%;
+        bottom: -200%;
+        padding: 2%; 
+        left: 70%;
+    }
+    
+    /*Peso*/
+    .titlePeso{
+        position: absolute; 
+        border: 3px solid #333;
+        background-color: #4444;
+        width: 10%;
+        padding: 2%; 
+        height: 50%;
+        bottom: -200%;
+        left: 80%;
+    }
+    
+    .txtEspa, .txtPeso{
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 24px);
+        position: absolute;
+        top: 5%;
+        color: #333;
+    }
+    
+    input.bxE, input.bxP{
+        position: absolute;
+        text-align: center;
+        background-color: #ffff;
+        width: 60%;
+        padding: 0.5%;
+        padding-bottom:- 30px;
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 17px);
+        color: #333;
+    }
+    
+    .boxItem8, .boxDeta8, .boxEspa8, .boxPeso8 {
+        top: 85%;
+    }
+    .boxItem7, .boxDeta7, .boxEspa7, .boxPeso7 {
+        top: 75%;
+    }
+    .boxItem6, .boxDeta6, .boxEspa6, .boxPeso6 {
+        top: 65%;
+    }
+    .boxItem5, .boxDeta5, .boxEspa5, .boxPeso5 {
+        top: 55%;
+    }
+    .boxItem4, .boxDeta4, .boxEspa4, .boxPeso4 {
+        top: 45%;
+    }
+    .boxItem3, .boxDeta3, .boxEspa3, .boxPeso3 {
+        top: 35%;
+    }
+    .boxItem2, .boxDeta2, .boxEspa2, .boxPeso2 {
+        top: 25%;
+    }
+    .boxItem1, .boxDeta1, .boxEspa1, .boxPeso1 {
+        top: 15%;
+    }
+    
+    /* Retornar o valor*/
+    .somaPesoEspaco{
+        position: absolute; 
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 14px);
+        background-color: #333;
+        color: #ffff;
+        width: 35%;
+        padding: 0.5%;
+        border: 3px solid black;
+        border-radius: 2%;  
+        bottom: -207%;
+        right: 10%;
+    }
+    
+    .boxSomaPeso, .boxSomaEspa{
+        position: absolute 1fr;
+        width: 27%;
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 14px);
+        color: red;
+        text-align: center;
+        outline: none;
+    }
+    
+    /*Caracteristicas*/
+    .titleCarac{
+        position: absolute; 
+        background-color: #333;
+        width: 80%;
+        padding: 2%;
+        border: 3px solid black;
+        border-radius: 2%;  
+        bottom: -220%;
+        left: 10%;
+        box-shadow:  -5.5px 6.5px 0  #4444;
+    }
+    
+    .txtCarac{
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 24px);
+        position: absolute;
+        top: 30%;
+        left: 38%;
+        color: #ffff;
+        padding-left: 5%;
+        background-color: #333;
+    }
+    
+    .boxCarac{
+        position: absolute;
+        background-color: #4444;
+        width: 80%;
+        height: 30%;
+        padding: 2%;
+        border: 3px solid black;
+        bottom: -250%;
+        left: 10%;
+    }
+    
+    .blocoCarac{
+        position: absolute;
+        background-color: #ffff;
+        width: 95%;
+        height: 70%;
+        padding: 0.5%;
+        padding-bottom:- 30px;
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 16px);
+        color: #333;
+    }
+    /*Habilidades*/
+    
+    .titleHab{
+        position: absolute; 
+        background-color: #333;
+        width: 80%;
+        padding: 2%;
+        border: 3px solid black;
+        border-radius: 2%;  
+        bottom: -270%;
+        left: 10%;
+        box-shadow:  -5.5px 6.5px 0  #4444;
+    }
+    
+    .txtHab{
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 24px);
+        position: absolute;
+        top: 30%;
+        left: 38%;
+        color: #ffff;
+        padding-left: 5%;
+        background-color: #333;
+    }
+    
+    .boxHab{
+        position: absolute;
+        background-color: #4444;
+        width: 80%;
+        height: 30%;
+        padding: 2%;
+        border: 3px solid black;
+        bottom: -300%;
+        left: 10%;
+    }
+    
+    .blocoHab{
+        position: absolute;
+        background-color: #ffff;
+        width: 95%;
+        height: 70%;
+        padding: 0.5%;
+        padding-bottom:- 30px;
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 16px);
+        color: #333;
+    }
+    
+    /*----------------------------- FIM -----------------------------*/
+    
+    .boxBtn{
+        position: absolute;
+        width: 30%;
+        height: 15%;
+        padding: 2%;
+        border: 3px solid #333;
+        border-radius: 6px;
+        bottom: -320%;
+        right: 10%;
+    }
+    
+    button.btn{
+        position: absolute;
+        width: 25%;
+        height: 10%;
+        padding: 3%;
+        font-weight: 800;
+        font-size: clamp(8px, 1.5vw, 22px);
+        border: 3px solid #333;
+        border-radius: 6px;
+        box-shadow:  -5.5px 6.5px 0  #4444;
+        color: #333;
+        padding-bottom: 7%;
+        padding-top: 2%;
+    }
+    
+    button:active{
+        position: absolute;
+        box-shadow: inset -4px 4px 0 #4444;;
+        font-size: 0.9rem;
+        font-size: clamp(8px, 2vw, 22px);
+    }
+    
+    .salvar{
+        position: absolute;
+        background-color: rgb(88, 249, 104);
+        left: 8.5%;
+        
+    }
+    .atualizar{
+        position: absolute;
+        background-color: rgb(91, 102, 252);
+        left: 39%;
+    }
+    
+    .apagar{
+        position: absolute;
+        background-color: rgb(252, 67, 67);
+        left: 69.5%;
+    }
+    
+    
+    
+
+}
+
+@media(max-width: 1420px){
+
+    html{
+        overflow-y: scroll;
+        background-color: #4444;
+        
+    }
+    
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Oxanium', cursive;
+        background-color: none;
+        
+    }
+    
+    .logo{
+        position: absolute;
+        width: 12%;
+        padding-top: 3%;
+        left: 3%;
+    }
+    
+    
+    /*Div*/
+    .nomeJogador{  
+        width: 35%;
+        position: absolute; 
+        left: 32%;
+        top: 6%;
+        font-size: clamp(8px, 4vw, 30px);
+        font-weight: 800;
+        text-align: center;
+    }
+    
+    /*texto*/
+    .txtNome{
+        padding-left: 20%;
+        color: #333;
+        width: 100%;
+    
+    }
+    
+    /*Caixa do texto digitado*/
+    .boxNome{
+        width: 100%;
+        left: 10%;
+        padding: 2%;
+        border: 3px solid black;
+        box-shadow: -4px 5px 0  #333;
+        border-radius: 30px;
+        position: absolute; 
+        font-size: clamp(8px, 4vw, 20px);
+        text-align: center;
+        outline: none;
+    }
+    
+    /*Div*/
+    .idadeJogador{  
+        width: 15%;
+        position: absolute; 
+        left: 20%;
+        top: 25%;
+        
+        font-size: clamp(8px, 4vw, 30px);
+        font-weight: 800;
+        text-align: center;
+    }
+    
+    /*texto*/
+    .txtIdade{
+        padding-left: 20%;
+        color: #333;
+        width: 100%;
+    
+    }
+    
+    /*Caixa do texto digitado*/
+    .boxAltura{
+        width: 100%;
+        left: 10%;
+        padding: 2%;
+        border: 3px solid black;
+        box-shadow: -3px 4px 0  #333;
+        border-radius: 30px;
+        position: absolute; 
+        font-size: clamp(8px, 4vw, 20px);
+        text-align: center;
+        outline: none;
+    }
+    
+    /*Div*/
+    .alturaJogador{  
+        width: 15%;
+        position: absolute; 
+        left: 44%;
+        top: 25%;  
+        font-size: clamp(8px, 4vw, 30px);
+        font-weight: 800;
+        text-align: center;
+    }
+    
+    /*texto*/
+    .txtAltura{
+        padding-left: 20%;
+        color: #333;
+        width: 100%;
+    
+    }
+    
+    /*Caixa do texto digitado*/
+    .boxIdade{
+        width: 100%;
+        left: 10%;
+        padding: 2%;
+        border: 3px solid black;
+        box-shadow: -3px 4px 0  #333;
+        border-radius: 30px;
+        position: absolute; 
+        font-size: clamp(8px, 4vw, 20px);
+        text-align: center;
+        outline: none;
+    }
+    
+    /*Div*/
+    .origemJogador{  
+        width: 15%;
+        position: absolute; 
+        left: 68%;
+        top: 25%;
+        font-size: clamp(8px, 4vw, 30px);
+        font-weight: 800;
+        text-align: center;
+    }
+    
+    /*texto*/
+    .txtOrigem{
+        padding-left: 20%;
+        color: #333;
+        width: 100%;
+    }
+    
+    /*Caixa do texto digitado*/
+    .boxOrigem{
+        width: 100%;
+        left: 10%;
+        padding: 2%;
+        border: 3px solid black;
+        box-shadow: -3px 4px 0  #333;
+        border-radius: 30px;
+        position: absolute; 
+        font-size: clamp(8px, 4vw, 20px);
+        text-align: center;
+        outline: none;
+    }
+    /* ----------- Sair ----------- */
+    
+    .boxSair{
+        position: absolute;
+        width: 7%;
+        top: 8%;
+        left: 86%;
+        background-color: rgb(251, 58, 58) ;
+        border: 3px solid black;
+        box-shadow: -3px 4px 0  #333;
+        border-radius: 30px;
+        position: absolute; 
+        font-weight: 800;
+        font-size: clamp(8px, 4vw, 22px);
+        text-align: center;
+        outline: none;
+    
+    }
+    
+    .textSair{
+        text-decoration: none;
+        color: #ffff;
+        background-color: none;
+    }
+    
+    /* ----------- ATRIBUTOSS ----------- */
+    .txtAtributo{
+        padding-left: 75%;
+        color: #333;
+        width: 60%;
+        font-weight: 800;
+        font-size: clamp(8px, 4vw, 24px);  
+    }
+    
+    .FOR{
+        position: absolute;
+        top: 50%;
+        left: 14.5%;
+        width: 7%;
+        text-align: center;
+    }
+    
+    .atributoFor{
+        position: absolute; 
+        text-align: center;
+        font-size: clamp(8px, 4vw, 20px);
+        width: 100%;
+        padding: 30%;
+        border: 3px solid black;
+        box-shadow: -3px 4px 0  #333;
+        border-radius: 50%;
+        outline: none;
+    }
+    
+    .INT{
+        position: absolute;
+        top: 66%;
+        left: 4.5%;
+        width: 7%;
+        text-align: center;
+    }
+    
+    .atributoInt{
+        position: absolute; 
+        font-size: clamp(8px, 4vw, 20px);
+        width: 100%;
+        padding: 30%;
+        border: 3px solid black;
+        box-shadow: -3px 4px 0  #333;
+        border-radius: 50%;
+        outline: none;
+        text-align: center;
+    }
+    
+    .PRE{
+        position: absolute;
+        top: 66%;
+        left: 24.5%;
+        width: 7%;
+        text-align: center;
+    }
+    
+    .atributoPre{
+        position: absolute; 
+        font-size: clamp(8px, 4vw, 20px);
+        width: 100%;
+        padding: 30%;
+        border: 3px solid black;
+        box-shadow: -3px 4px 0  #333;
+        border-radius: 50%;
+        outline: none;
+        text-align: center;
+    }
+    
+    .AGI{
+        position: absolute;
+        top: 86%;
+        left: 8.5%;
+        width: 7%;
+        text-align: center;
+    }
+    
+    .atributoAgi{
+        position: absolute; 
+        font-size: clamp(8px, 4vw, 20px);
+        width: 100%;
+        padding: 30%;
+        border: 3px solid black;
+        box-shadow: -3px 4px 0  #333;
+        border-radius: 50%;
+        outline: none;
+        text-align: center;
+    }
+    
+    .VIG{
+        position: absolute;
+        top: 86%;
+        left: 21.5%;
+        width: 7%;
+        text-align: center;
+    }
+    
+    .atributoVig{
+        position: absolute; 
+        font-size: clamp(8px, 4vw, 20px);
+        width: 100%;
+        padding: 30%;
+        border: 3px solid black;
+        border-radius: 50%;
+        box-shadow: -3px 4px 0  #333;
+        outline: none;
+        text-align: center;
+    }
+    
+    .blackAtributo{
+        position: absolute; 
+        background-color: #333;
+        width: 8.5%;
+        padding: 4%;
+        border: 3px solid black;
+        border-radius: 50%;  
+        top: 70%;
+        left: 17%;
+        box-shadow: -3px 4px 0  #333;
+    }
+    
+    .txtBlackAtributo{
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 16px);
+        background-color: #333;
+        position: absolute;
+        top: 40%;
+        left: 14.5%;
+        color: #ffff;
+    }
+    
+    .blackPericia{
+        position: absolute; 
+        background-color: #333;
+        width: 37%;
+        padding: 2%;
+        border: 3px solid black;
+        border-radius: 2%;  
+        top: 40%;
+        right: 3.5%;
+        box-shadow:  -5.5px 6.5px 0  #4444;
+    }
+    
+    .txtBlackPericia{
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 24px);
+        position: absolute;
+        top: 30%;
+        left: 40.5%;
+        color: #ffff;
+        background-color: #333;
+    }
+    
+    .pericia{
+        position: absolute;
+        top: 52%;
+        left: 60.5%;
+    }
+    
+    /* pericias */
+    input.teste{
+        text-align: center;
+        position: absolute; 
+        background-color: #ffff;
+        width: 35%;
+        padding: 0.5%;
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 18px);
+        color: #333;
+        border: 3px solid black;
+        border-radius: 2%;  
+        right: -25%;
+    }
+    
+    .nomePericia{
+        position: absolute;
+        display: contents;
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 24px);
+        padding-left: 33%; /*certo*/
+    }
+    
+    .nomeDado{
+    color: #6a6a6a;
+    left: 60.5%;
+    }
+    
+    .perAcro{
+        top: -0.8%;
+    }
+    
+    .perAdes{ 
+        top: 2.8%;
+    }
+    
+    .perArte{
+        top: 6.4%;
+    }
+    
+    .perAtle{
+        top: 10%; 
+    }
+    
+    .perAtua{ 
+        top: 13.6%; 
+    }
+    .perCien{
+        top: 17.2%;
+    }
+    .perCrim{
+        top: 20.8%;
+    }
+    .perDipl{
+        top: 24.4%;
+    }
+    .perEnga{ 
+        top: 28%;
+    }
+    
+    .perFort{
+        top: 31.6%;
+    }
+    
+    .perFurt{
+        top: 35.1%;
+    }
+    
+    .perInic{
+        top: 38.7%;
+    }
+    
+    .perInti{
+        top: 42.3%;
+    }
+    
+    .perIntui{
+        top: 45.9%;
+    }
+    
+    .perInve{
+        top: 49.4%;
+    }
+    
+    .perLuta{
+        top: 53%;
+    }
+    
+    .perMedi{
+        top: 56.5%;
+    }
+    
+    .perOcul{ 
+        top: 60%;
+    }
+    
+    .perPerc{
+        top: 63.6%;
+    }
+    
+    .perPilo{
+        top: 67.1%;
+    }
+    
+    .perPont{
+        top: 70.7%;
+    }
+    
+    .profissao{
+        padding: 0.5%;
+        width: 37.8%;
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 18px);
+        color: #333;
+        border: none;
+        border-radius: 2%; 
+        border-bottom: #333; 
+        background-color: transparent;
+    }
+    
+    .perProf{
+        top: 74.3%;
+    }
+    
+    .perRefl{
+        top: 77.9%;
+    }
+    
+    .perReli{
+        top: 81.4%;
+    }
+    
+    .perSobr{
+        top: 85%;
+    }
+    
+    .perTati{
+        top: 88.6%;
+    }
+    
+    .perTecn{
+        top: 92.2%;
+    }
+    
+    .perVont{
+        top: 95.9%;
+    }
+    
+    
+    
+    /* SAUDE */
+    .blackSaude{
+        position: absolute; 
+        background-color: #333;
+        width: 25%;
+        padding: 2%;
+        border: 3px solid black;
+        border-radius: 2%;  
+        top: 120%;
+        left: 3%;
+        box-shadow:  -5.5px 6.5px 0  #4444;
+    }
+    
+    .txtBlackSaude{
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 24px);
+        position: absolute;
+        top: 30%;
+        left: 40%;
+        color: #ffff;
+        background-color: #333;
+    }
+    
+    .descricao{
+        position: absolute;
+        display: contents;
+        width: 35%;
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 15px);
+        color: #6a6a6a;
+    }
+    
+    /* VIDA */
+    .posicaoSaude{
+        position: absolute;
+        top: 130%;
+        left: 3.5%;
+        width: 25%;
+    }
+    
+    .txtSaude{
+        position: absolute;
+        width: 100%;
+        padding: 0.5%;
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 25px);
+        color: #333;
+    }
+    
+    .pontosVidaMax{
+        position: absolute; 
+        background-color: #ffff;
+        width: 10%;
+        padding: 0.5%;
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 17px);
+        text-align: center;
+        color: #333;
+        border: 3px solid black;
+        border-radius: 2%; 
+        left: 3.5%;
+        bottom: -42%;
+    }
+    
+    .pontosVidaMin{
+        position: absolute; 
+        background-color: #ffff;
+        width: 10%;
+        padding: 0.5%;
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 17px);
+        text-align: center;
+        color: #333;
+        border: 3px solid black;
+        border-radius: 2%; 
+        left: 14.5%;
+        bottom: -42%;
+    }
+    
+    /* SANIDADE */
+    .posicaoSanidade{
+        position: absolute;
+        top: 144%;
+        left: 3.5%;
+        width: 25%;
+        background-color: none;
+    }
+    
+    .txtSanidade{
+        position: absolute;
+        width: 100%;
+        padding: 0.5%;
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 25px);
+        color: #333;
+    }
+    
+    .pontosSanidadeMax{
+        position: absolute; 
+        background-color: #ffff;
+        width: 10%;
+        padding: 0.5%;
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 17px);
+        text-align: center;
+        color: #333;
+        border: 3px solid black;
+        border-radius: 2%; 
+        left: 3.5%;
+        bottom: -55.5%;
+    }
+    
+    .pontosSanidadeMin{
+        position: absolute; 
+        background-color: #ffff;
+        width: 10%;
+        padding: 0.5%;
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 17px);
+        text-align: center;
+        color: #333;
+        border: 3px solid black;
+        border-radius: 2%; 
+        left: 14.5%;
+        bottom: -55.5%;
+    }
+    
+    /* ESFORÇO */
+    .posicaoEsforco{
+        position: absolute;
+        top: 158.5%;
+        left: 3.5%;
+        width: 25%;
+    }
+    
+    .txtEsforco{
+        position: absolute;
+        width: 100%;
+        padding: 0.5%;
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 25px);
+        color: #333;
+    }
+    
+    .pontosEsforcoMax{
+        position: absolute; 
+        background-color: #ffff;
+        width: 10%;
+        padding: 0.5%;
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 17px);
+        text-align: center;
+        color: #333;
+        border: 3px solid black;
+        border-radius: 2%; 
+        left: 3.5%;
+        bottom: -70%;
+    }
+    
+    .pontosEsforcoMin{
+        position: absolute; 
+        background-color: #ffff;
+        width: 10%;
+        padding: 0.5%;
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 17px);
+        text-align: center;
+        color: #333;
+        border: 3px solid black;
+        border-radius: 2%; 
+        left: 14.5%;
+        bottom: -70%;
+    }
+    
+    /* RESISTÊNCIA */
+    .blackResistencia{
+        position: absolute; 
+        background-color: #333;
+        width: 25%;
+        padding: 2%;
+        border: 3px solid black;
+        border-radius: 2%;  
+        top: 120%;
+        left: 32%;
+        box-shadow:  -5.5px 6.5px 0  #4444;
+    }
+    
+    .txtBlackResistencia{
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 24px);
+        position: absolute;
+        top: 30%;
+        left: 30%;
+        color: #ffff;
+        background-color: #333;
+    }
+    
+    /* RESISTÊNCIA */
+    .posicaoFisica{
+        position: absolute;
+        width: 25%;
+        left: 32%;
+        bottom: -36.5%;
+    }
+    
+    .txtFisica{
+        position: absolute;
+        width: 28%;
+        padding: 0.5%;
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 25px);
+        color: #333;
+        top: -80%;
+        text-align: center;
+        
+        
+    }
+    
+    .pontosFis{
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 17px);
+        text-align: center;
+        position: absolute;
+        width: 30%;
+        padding: 2.5%;
+        border: 3px solid black;
+        border-radius: 2%; 
+        background-color: #ffff;
+    }
+    
+    /* BALISTICA */
+    .posicaoBalistica{
+        position: absolute;
+        width: 25%;
+        left: 40.5%;
+        bottom: -36.5%;
+    }
+    
+    .txtBalistica{
+        position: absolute;
+        width: 28%;
+        padding: 0.5%;
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 25px);
+        color: #333;
+        top: -80%;
+        text-align: center;  
+    }
+    
+    .pontosBalis{
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 17px);
+        text-align: center;
+        position: absolute;
+        width: 30%;
+        padding: 2.5%;
+        border: 3px solid black;
+        border-radius: 2%; 
+        background-color: #ffff;
+    }
+    
+    /* SANIDADE */
+    .posicaoSani{
+        position: absolute;
+        width: 25%;
+        left: 49%;
+        bottom: -36.5%;
+        padding: 0%;
+    }
+    
+    .txtSani{
+        position: absolute;
+        width: 28%;
+        padding: 0.5%;
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 25px);
+        color: #333;
+        top: -80%;
+        text-align: center; 
+    }
+    
+    .pontosSani{
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 17px);
+        text-align: center;
+        position: absolute;
+        width: 30%;
+        padding: 2.5%;
+        border: 3px solid black;
+        border-radius: 2%; 
+        text-align: center;
+        background-color: #ffff;
+    }
+    
+    /* DEFESA */
+    .blackDefesa{
+        position: absolute; 
+        background-color: #333;
+        width: 25%;
+        padding: 2%;
+        border: 3px solid black;
+        border-radius: 2%;  
+        top: 146%;
+        left: 32%;
+        box-shadow:  -5.5px 6.5px 0  #4444;
+    }
+    
+    .txtDefesa{
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 24px);
+        position: absolute;
+        top: 30%;
+        left: 30.5%;
+        color: #ffff;
+        padding-left: 5%;
+        background-color: #333;
+    }
+    
+    /* PASSIVA */
+    .posicaoDef{
+        position: absolute;
+        top: 158%;
+        left: 31.5%;
+        width: 25%;
+    }
+    
+    .txtDef{
+        position: absolute;
+        width: 43%;
+        padding: 0.5%;
+        left: 10%;
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 24px);
+        color: #333;
+        padding-top: 2%;
+    }
+    
+    .pontosDEF{
+        position: absolute; 
+        background-color: #ffff;
+        width: 10%;
+        padding: 0.5%;
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 17px);
+        text-align: center;
+        color: #333;
+        border: 3px solid black;
+        border-radius: 2%; 
+        left: 32%;
+        bottom: -70%;
+    }
+    
+    /* ESQUIVA */
+    .posicaoEsq{
+        position: absolute;
+        top: 158%;
+        left: 43.5%;
+        width: 25%;
+    }
+    
+    .txtEsq{
+        position: absolute;
+        width: 30%;
+        left: 12%;
+        padding: 0.5%;
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 24px);
+        color: #333;
+        padding-top: 2%;
+    }
+    
+    .pontosEsq{
+        position: absolute; 
+        background-color: #ffff;
+        width: 10%;
+        padding: 0.5%;
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 17px);
+        text-align: center;
+        color: #333;
+        border: 3px solid black;
+        border-radius: 2%; 
+        left: 45%;
+        bottom: -70%;
+    }
+    
+    /* ARMAS */
+    .titleArmas{
+        position: absolute; 
+        background-color: #333;
+        width: 80%;
+        padding: 2%;
+        border: 3px solid black;
+        border-radius: 2%;  
+        top: 180%;
+        left: 10%;
+        box-shadow:  -5.5px 6.5px 0  #4444;  
+    }
+    
+    .txtArmas{
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 24px);
+        position: absolute;
+        top: 30%;
+        left: 38%;
+        color: #ffff;
+        padding-left: 5%;
+        background-color: #333;
+    }
+    
+    /* ARMAS - Campo de digitação*/
+    .boxArmas{
+        position: absolute; 
+        border: 3px solid #333;
+        background-color: #4444;
+        width: 80%;
+        height: 30%;
+        padding: 2%; 
+        bottom: -130%;
+        left: 10%;
+    }
+    
+    .txtBox{
+        font-weight: 800;
+        font-size: clamp(8px, 1.5vw, 24px);
+        position: absolute;
+        top: -20%;
+        left: 5%;
+        color: #333;
+    }
+    
+    input.bxL{
+        position: absolute;
+        background-color: #ffff;
+        width: 95%;
+        padding: 0.5%;
+        padding-bottom:- 30px;
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 16px);
+        color: #333;
+    }
+    
+    .linha1{
+        top: 3%;
+    }
+    .linha2{
+        top: 23%;
+    }
+    .linha3{
+        top: 43%;
+    }
+    .linha4{
+        top: 63%;
+    }
+    
+    .linha5{
+        top: 83%;
+    }
+    .bag{
+        width: 3%;
+    }
+    
+    /*barra preta do inventario*/
+    .titleInventario{
+        position: absolute; 
+        background-color: #333;
+        width: 80%;
+        padding: 0.5%;
+        border: 3px solid black;
+        border-radius: 2%;  
+        top: 240%;
+        left: 10%;
+        box-shadow:  -5.5px 6.5px 0  #4444;
+    }
+    
+    .txtInventario{
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 24px);
+        position: absolute;
+        top: 30%;
+        left: 38%;
+        color: #ffff;
+        padding-left: 5%;
+        background-color: #333;
+    }
+    
+    /*Itens*/
+    .titleDetalhe{
+        position: absolute; 
+        border: 3px solid #333;
+        background-color: #4444;
+        width: 30%;
+        padding: 2%; 
+        height: 50%;
+        bottom: -200%;
+        left: 10%;
+    }
+    
+    /*Detalhes*/
+    .titleDeta{
+        position: absolute; 
+        border: 3px solid #333;
+        background-color: #4444;
+        width: 30%;
+        padding: 2%; 
+        height: 50%;
+        bottom: -200%;
+        left: 40%; 
+    }
+    
+    /*Input do item e detalhes*/
+    .txtItem, .txtDeta{
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 24px);
+        position: absolute;
+        top: 5%;
+        color: #333;
+    }
+    
+    input.bxI, input.bxD{
+        position: absolute;
+        background-color: #ffff;
+        width: 85%;
+        padding: 0.5%;
+        padding-bottom:- 30px;
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 17px);
+        color: #333;
+    }
+    
+    /*Espaço*/
+    .titleEspaco{
+        position: absolute; 
+        border: 3px solid #333;
+        background-color: #4444;
+        width: 10%;
+        height: 50%;
+        bottom: -200%;
+        padding: 2%; 
+        left: 70%;
+    }
+    
+    /*Peso*/
+    .titlePeso{
+        position: absolute; 
+        border: 3px solid #333;
+        background-color: #4444;
+        width: 10%;
+        padding: 2%; 
+        height: 50%;
+        bottom: -200%;
+        left: 80%;
+    }
+    
+    .txtEspa, .txtPeso{
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 24px);
+        position: absolute;
+        top: 5%;
+        color: #333;
+    }
+    
+    input.bxE, input.bxP{
+        position: absolute;
+        text-align: center;
+        background-color: #ffff;
+        width: 60%;
+        padding: 0.5%;
+        padding-bottom:- 30px;
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 17px);
+        color: #333;
+    }
+    
+    .boxItem8, .boxDeta8, .boxEspa8, .boxPeso8 {
+        top: 85%;
+    }
+    .boxItem7, .boxDeta7, .boxEspa7, .boxPeso7 {
+        top: 75%;
+    }
+    .boxItem6, .boxDeta6, .boxEspa6, .boxPeso6 {
+        top: 65%;
+    }
+    .boxItem5, .boxDeta5, .boxEspa5, .boxPeso5 {
+        top: 55%;
+    }
+    .boxItem4, .boxDeta4, .boxEspa4, .boxPeso4 {
+        top: 45%;
+    }
+    .boxItem3, .boxDeta3, .boxEspa3, .boxPeso3 {
+        top: 35%;
+    }
+    .boxItem2, .boxDeta2, .boxEspa2, .boxPeso2 {
+        top: 25%;
+    }
+    .boxItem1, .boxDeta1, .boxEspa1, .boxPeso1 {
+        top: 15%;
+    }
+    
+    /* Retornar o valor*/
+    .somaPesoEspaco{
+        position: absolute; 
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 14px);
+        background-color: #333;
+        color: #ffff;
+        width: 38%;
+        padding: 0.5%;
+        border: 3px solid black;
+        border-radius: 2%;  
+        bottom: -207%;
+        right: 10%;
+    }
+    
+    .boxSomaPeso, .boxSomaEspa{
+        position: absolute 1fr;
+        width: 27%;
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 14px);
+        color: red;
+        text-align: center;
+        outline: none;
+    }
+    
+    /*Caracteristicas*/
+    .titleCarac{
+        position: absolute; 
+        background-color: #333;
+        width: 80%;
+        padding: 2%;
+        border: 3px solid black;
+        border-radius: 2%;  
+        bottom: -220%;
+        left: 10%;
+        box-shadow:  -5.5px 6.5px 0  #4444;
+    }
+    
+    .txtCarac{
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 24px);
+        position: absolute;
+        top: 30%;
+        left: 38%;
+        color: #ffff;
+        padding-left: 5%;
+        background-color: #333;
+    }
+    
+    .boxCarac{
+        position: absolute;
+        background-color: #4444;
+        width: 80%;
+        height: 30%;
+        padding: 2%;
+        border: 3px solid black;
+        bottom: -250%;
+        left: 10%;
+    }
+    
+    .blocoCarac{
+        position: absolute;
+        background-color: #ffff;
+        width: 95%;
+        height: 70%;
+        padding: 0.5%;
+        padding-bottom:- 30px;
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 16px);
+        color: #333;
+    }
+    /*Habilidades*/
+    
+    .titleHab{
+        position: absolute; 
+        background-color: #333;
+        width: 80%;
+        padding: 2%;
+        border: 3px solid black;
+        border-radius: 2%;  
+        bottom: -270%;
+        left: 10%;
+        box-shadow:  -5.5px 6.5px 0  #4444;
+    }
+    
+    .txtHab{
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 24px);
+        position: absolute;
+        top: 30%;
+        left: 38%;
+        color: #ffff;
+        padding-left: 5%;
+        background-color: #333;
+    }
+    
+    .boxHab{
+        position: absolute;
+        background-color: #4444;
+        width: 80%;
+        height: 30%;
+        padding: 2%;
+        border: 3px solid black;
+        bottom: -300%;
+        left: 10%;
+    }
+    
+    .blocoHab{
+        position: absolute;
+        background-color: #ffff;
+        width: 95%;
+        height: 70%;
+        padding: 0.5%;
+        padding-bottom:- 30px;
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 16px);
+        color: #333;
+    }
+    
+    /*----------------------------- FIM -----------------------------*/
+    
+    .boxBtn{
+        position: absolute;
+        width: 30%;
+        height: 15%;
+        padding: 2%;
+        border: 3px solid #333;
+        border-radius: 6px;
+        bottom: -320%;
+        right: 10%;
+    }
+    
+    button.btn{
+        position: absolute;
+        width: 25%;
+        height: 10%;
+        padding: 3%;
+        font-weight: 800;
+        font-size: clamp(8px, 1.5vw, 22px);
+        border: 3px solid #333;
+        border-radius: 6px;
+        box-shadow:  -5.5px 6.5px 0  #4444;
+        color: #333;
+        padding-bottom: 7%;
+        padding-top: 2%;
+    }
+    
+    button:active{
+        position: absolute;
+        box-shadow: inset -4px 4px 0 #4444;;
+        font-size: 0.9rem;
+        font-size: clamp(8px, 2vw, 22px);
+    }
+    
+    .salvar{
+        position: absolute;
+        background-color: rgb(88, 249, 104);
+        left: 8.5%;
+        
+    }
+    .atualizar{
+        position: absolute;
+        background-color: rgb(91, 102, 252);
+        left: 39%;
+    }
+    
+    .apagar{
+        position: absolute;
+        background-color: rgb(252, 67, 67);
+        left: 69.5%;
+    }
+    
+    
+    
+
+}
+
+@media(max-width: 1220px){
+
+    html{
+        overflow-y: scroll;
+        background-color: #4444;
+        
+    }
+    
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Oxanium', cursive;
+        background-color: none;
+        
+    }
+    
+    .logo{
+        position: absolute;
+        width: 12%;
+        padding-top: 3%;
+        left: 3%;
+    }
+    
+    
+    /*Div*/
+    .nomeJogador{  
+        width: 35%;
+        position: absolute; 
+        left: 32%;
+        top: 6%;
+        font-size: clamp(8px, 4vw, 30px);
+        font-weight: 800;
+        text-align: center;
+    }
+    
+    /*texto*/
+    .txtNome{
+        padding-left: 20%;
+        color: #333;
+        width: 100%;
+    
+    }
+    
+    /*Caixa do texto digitado*/
+    .boxNome{
+        width: 100%;
+        left: 10%;
+        padding: 2%;
+        border: 3px solid black;
+        box-shadow: -4px 5px 0  #333;
+        border-radius: 30px;
+        position: absolute; 
+        font-size: clamp(8px, 4vw, 20px);
+        text-align: center;
+        outline: none;
+    }
+    
+    /*Div*/
+    .idadeJogador{  
+        width: 15%;
+        position: absolute; 
+        left: 20%;
+        top: 25%;
+        
+        font-size: clamp(8px, 4vw, 30px);
+        font-weight: 800;
+        text-align: center;
+    }
+    
+    /*texto*/
+    .txtIdade{
+        padding-left: 20%;
+        color: #333;
+        width: 100%;
+    
+    }
+    
+    /*Caixa do texto digitado*/
+    .boxAltura{
+        width: 100%;
+        left: 10%;
+        padding: 2%;
+        border: 3px solid black;
+        box-shadow: -3px 4px 0  #333;
+        border-radius: 30px;
+        position: absolute; 
+        font-size: clamp(8px, 4vw, 20px);
+        text-align: center;
+        outline: none;
+    }
+    
+    /*Div*/
+    .alturaJogador{  
+        width: 15%;
+        position: absolute; 
+        left: 44%;
+        top: 25%;  
+        font-size: clamp(8px, 4vw, 30px);
+        font-weight: 800;
+        text-align: center;
+    }
+    
+    /*texto*/
+    .txtAltura{
+        padding-left: 20%;
+        color: #333;
+        width: 100%;
+    
+    }
+    
+    /*Caixa do texto digitado*/
+    .boxIdade{
+        width: 100%;
+        left: 10%;
+        padding: 2%;
+        border: 3px solid black;
+        box-shadow: -3px 4px 0  #333;
+        border-radius: 30px;
+        position: absolute; 
+        font-size: clamp(8px, 4vw, 20px);
+        text-align: center;
+        outline: none;
+    }
+    
+    /*Div*/
+    .origemJogador{  
+        width: 15%;
+        position: absolute; 
+        left: 68%;
+        top: 25%;
+        font-size: clamp(8px, 4vw, 30px);
+        font-weight: 800;
+        text-align: center;
+    }
+    
+    /*texto*/
+    .txtOrigem{
+        padding-left: 20%;
+        color: #333;
+        width: 100%;
+    }
+    
+    /*Caixa do texto digitado*/
+    .boxOrigem{
+        width: 100%;
+        left: 10%;
+        padding: 2%;
+        border: 3px solid black;
+        box-shadow: -3px 4px 0  #333;
+        border-radius: 30px;
+        position: absolute; 
+        font-size: clamp(8px, 4vw, 20px);
+        text-align: center;
+        outline: none;
+    }
+    /* ----------- Sair ----------- */
+    
+    .boxSair{
+        position: absolute;
+        width: 7%;
+        top: 8%;
+        left: 86%;
+        background-color: rgb(251, 58, 58) ;
+        border: 3px solid black;
+        box-shadow: -3px 4px 0  #333;
+        border-radius: 30px;
+        position: absolute; 
+        font-weight: 800;
+        font-size: clamp(8px, 4vw, 22px);
+        text-align: center;
+        outline: none;
+    
+    }
+    
+    .textSair{
+        text-decoration: none;
+        color: #ffff;
+        background-color: none;
+    }
+    
+    /* ----------- ATRIBUTOSS ----------- */
+    .txtAtributo{
+        padding-left: 75%;
+        color: #333;
+        width: 60%;
+        font-weight: 800;
+        font-size: clamp(8px, 4vw, 24px);  
+    }
+    
+    .FOR{
+        position: absolute;
+        top: 50%;
+        left: 13.5%;
+        width: 8%;
+        text-align: center;
+    }
+    
+    .atributoFor{
+        position: absolute; 
+        text-align: center;
+        font-size: clamp(8px, 4vw, 20px);
+        width: 100%;
+        padding: 30%;
+        border: 3px solid black;
+        box-shadow: -3px 4px 0  #333;
+        border-radius: 50%;
+        outline: none;
+    }
+    
+    .INT{
+        position: absolute;
+        top: 66%;
+        left: 2.5%;
+        width: 8%;
+        text-align: center;
+    }
+    
+    .atributoInt{
+        position: absolute; 
+        font-size: clamp(8px, 4vw, 20px);
+        width: 100%;
+        padding: 30%;
+        border: 3px solid black;
+        box-shadow: -3px 4px 0  #333;
+        border-radius: 50%;
+        outline: none;
+        text-align: center;
+    }
+    
+    .PRE{
+        position: absolute;
+        top: 66%;
+        left: 25%;
+        width: 8%;
+        text-align: center;
+    }
+    
+    .atributoPre{
+        position: absolute; 
+        font-size: clamp(8px, 4vw, 20px);
+        width: 100%;
+        padding: 30%;
+        border: 3px solid black;
+        box-shadow: -3px 4px 0  #333;
+        border-radius: 50%;
+        outline: none;
+        text-align: center;
+    }
+    
+    .AGI{
+        position: absolute;
+        top: 86%;
+        left: 7%;
+        width: 8%;
+        text-align: center;
+    }
+    
+    .atributoAgi{
+        position: absolute; 
+        font-size: clamp(8px, 4vw, 20px);
+        width: 100%;
+        padding: 30%;
+        border: 3px solid black;
+        box-shadow: -3px 4px 0  #333;
+        border-radius: 50%;
+        outline: none;
+        text-align: center;
+    }
+    
+    .VIG{
+        position: absolute;
+        top: 86%;
+        left: 20%;
+        width: 8%;
+        text-align: center;
+    }
+    
+    .atributoVig{
+        position: absolute; 
+        font-size: clamp(8px, 4vw, 20px);
+        width: 100%;
+        padding: 30%;
+        border: 3px solid black;
+        border-radius: 50%;
+        box-shadow: -3px 4px 0  #333;
+        outline: none;
+        text-align: center;
+    }
+    
+    .blackAtributo{
+        position: absolute; 
+        background-color: #333;
+        width: 9%;
+        padding: 4%;
+        border: 3px solid black;
+        border-radius: 50%;  
+        top: 70%;
+        left: 17%;
+        box-shadow: -3px 4px 0  #333;
+    }
+    
+    .txtBlackAtributo{
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 16px);
+        background-color: #333;
+        position: absolute;
+        top: 40%;
+        left: 14.5%;
+        color: #ffff;
+    }
+    
+    .blackPericia{
+        position: absolute; 
+        background-color: #333;
+        width: 37%;
+        padding: 2%;
+        border: 3px solid black;
+        border-radius: 2%;  
+        top: 40%;
+        right: 3.5%;
+        box-shadow:  -5.5px 6.5px 0  #4444;
+    }
+    
+    .txtBlackPericia{
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 24px);
+        position: absolute;
+        top: 30%;
+        left: 40.5%;
+        color: #ffff;
+        background-color: #333;
+    }
+    
+    .pericia{
+        position: absolute;
+        top: 52%;
+        left: 60.5%;
+    }
+    
+    /* pericias */
+    input.teste{
+        text-align: center;
+        position: absolute; 
+        background-color: #ffff;
+        width: 35%;
+        padding: 0.5%;
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 16px);
+        color: #333;
+        border: 3px solid black;
+        border-radius: 2%;  
+        right: -22%;
+    }
+    
+    .nomePericia{
+        position: absolute;
+        display: contents;
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 24px);
+        padding-left: 33%; /*certo*/
+    }
+    
+    .nomeDado{
+    color: #6a6a6a;
+    left: 60.5%;
+    }
+    
+    .perAcro{
+        top: -0.8%;
+    }
+    
+    .perAdes{ 
+        top: 2.8%;
+    }
+    
+    .perArte{
+        top: 6.4%;
+    }
+    
+    .perAtle{
+        top: 10%; 
+    }
+    
+    .perAtua{ 
+        top: 13.6%; 
+    }
+    .perCien{
+        top: 17.2%;
+    }
+    .perCrim{
+        top: 20.8%;
+    }
+    .perDipl{
+        top: 24.4%;
+    }
+    .perEnga{ 
+        top: 28%;
+    }
+    
+    .perFort{
+        top: 31.6%;
+    }
+    
+    .perFurt{
+        top: 35.1%;
+    }
+    
+    .perInic{
+        top: 38.7%;
+    }
+    
+    .perInti{
+        top: 42.3%;
+    }
+    
+    .perIntui{
+        top: 45.9%;
+    }
+    
+    .perInve{
+        top: 49.4%;
+    }
+    
+    .perLuta{
+        top: 53%;
+    }
+    
+    .perMedi{
+        top: 56.5%;
+    }
+    
+    .perOcul{ 
+        top: 60%;
+    }
+    
+    .perPerc{
+        top: 63.6%;
+    }
+    
+    .perPilo{
+        top: 67.1%;
+    }
+    
+    .perPont{
+        top: 70.7%;
+    }
+    
+    .profissao{
+        padding: 0.5%;
+        width: 37.8%;
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 18px);
+        color: #333;
+        border: none;
+        border-radius: 2%; 
+        border-bottom: #333; 
+        background-color: transparent;
+    }
+    
+    .perProf{
+        top: 74.3%;
+    }
+    
+    .perRefl{
+        top: 77.9%;
+    }
+    
+    .perReli{
+        top: 81.4%;
+    }
+    
+    .perSobr{
+        top: 85%;
+    }
+    
+    .perTati{
+        top: 88.6%;
+    }
+    
+    .perTecn{
+        top: 92.2%;
+    }
+    
+    .perVont{
+        top: 95.9%;
+    }
+    
+    
+    
+    /* SAUDE */
+    .blackSaude{
+        position: absolute; 
+        background-color: #333;
+        width: 25%;
+        padding: 2%;
+        border: 3px solid black;
+        border-radius: 2%;  
+        top: 120%;
+        left: 3%;
+        box-shadow:  -5.5px 6.5px 0  #4444;
+    }
+    
+    .txtBlackSaude{
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 24px);
+        position: absolute;
+        top: 30%;
+        left: 38%;
+        color: #ffff;
+        background-color: #333;
+    }
+    
+    .descricao{
+        position: absolute;
+        display: contents;
+        width: 35%;
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 15px);
+        color: #6a6a6a;
+    }
+    
+    /* VIDA */
+    .posicaoSaude{
+        position: absolute;
+        top: 130%;
+        left: 3.5%;
+        width: 25%;
+    }
+    
+    .txtSaude{
+        position: absolute;
+        width: 100%;
+        padding: 0.5%;
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 25px);
+        color: #333;
+    }
+    
+    .pontosVidaMax{
+        position: absolute; 
+        background-color: #ffff;
+        width: 10%;
+        padding: 0.5%;
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 17px);
+        text-align: center;
+        color: #333;
+        border: 3px solid black;
+        border-radius: 2%; 
+        left: 3.5%;
+        bottom: -42%;
+    }
+    
+    .pontosVidaMin{
+        position: absolute; 
+        background-color: #ffff;
+        width: 10%;
+        padding: 0.5%;
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 17px);
+        text-align: center;
+        color: #333;
+        border: 3px solid black;
+        border-radius: 2%; 
+        left: 14.5%;
+        bottom: -42%;
+    }
+    
+    /* SANIDADE */
+    .posicaoSanidade{
+        position: absolute;
+        top: 144%;
+        left: 3.5%;
+        width: 25%;
+        background-color: none;
+    }
+    
+    .txtSanidade{
+        position: absolute;
+        width: 100%;
+        padding: 0.5%;
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 25px);
+        color: #333;
+    }
+    
+    .pontosSanidadeMax{
+        position: absolute; 
+        background-color: #ffff;
+        width: 10%;
+        padding: 0.5%;
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 17px);
+        text-align: center;
+        color: #333;
+        border: 3px solid black;
+        border-radius: 2%; 
+        left: 3.5%;
+        bottom: -55.5%;
+    }
+    
+    .pontosSanidadeMin{
+        position: absolute; 
+        background-color: #ffff;
+        width: 10%;
+        padding: 0.5%;
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 17px);
+        text-align: center;
+        color: #333;
+        border: 3px solid black;
+        border-radius: 2%; 
+        left: 14.5%;
+        bottom: -55.5%;
+    }
+    
+    /* ESFORÇO */
+    .posicaoEsforco{
+        position: absolute;
+        top: 158.5%;
+        left: 3.5%;
+        width: 25%;
+    }
+    
+    .txtEsforco{
+        position: absolute;
+        width: 100%;
+        padding: 0.5%;
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 25px);
+        color: #333;
+    }
+    
+    .pontosEsforcoMax{
+        position: absolute; 
+        background-color: #ffff;
+        width: 10%;
+        padding: 0.5%;
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 17px);
+        text-align: center;
+        color: #333;
+        border: 3px solid black;
+        border-radius: 2%; 
+        left: 3.5%;
+        bottom: -70%;
+    }
+    
+    .pontosEsforcoMin{
+        position: absolute; 
+        background-color: #ffff;
+        width: 10%;
+        padding: 0.5%;
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 17px);
+        text-align: center;
+        color: #333;
+        border: 3px solid black;
+        border-radius: 2%; 
+        left: 14.5%;
+        bottom: -70%;
+    }
+    
+    /* RESISTÊNCIA */
+    .blackResistencia{
+        position: absolute; 
+        background-color: #333;
+        width: 25%;
+        padding: 2%;
+        border: 3px solid black;
+        border-radius: 2%;  
+        top: 120%;
+        left: 32%;
+        box-shadow:  -5.5px 6.5px 0  #4444;
+    }
+    
+    .txtBlackResistencia{
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 24px);
+        position: absolute;
+        top: 30%;
+        left: 25%;
+        color: #ffff;
+        background-color: #333;
+    }
+    
+    /* RESISTÊNCIA */
+    .posicaoFisica{
+        position: absolute;
+        width: 25%;
+        left: 32%;
+        bottom: -36.5%;
+    }
+    
+    .txtFisica{
+        position: absolute;
+        width: 28%;
+        padding: 0.5%;
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 25px);
+        color: #333;
+        top: -80%;
+        text-align: center;
+        
+        
+    }
+    
+    .pontosFis{
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 17px);
+        text-align: center;
+        position: absolute;
+        width: 30%;
+        padding: 2.5%;
+        border: 3px solid black;
+        border-radius: 2%; 
+        background-color: #ffff;
+    }
+    
+    /* BALISTICA */
+    .posicaoBalistica{
+        position: absolute;
+        width: 25%;
+        left: 40.5%;
+        bottom: -36.5%;
+    }
+    
+    .txtBalistica{
+        position: absolute;
+        width: 28%;
+        padding: 0.5%;
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 25px);
+        color: #333;
+        top: -80%;
+        text-align: center;  
+    }
+    
+    .pontosBalis{
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 17px);
+        text-align: center;
+        position: absolute;
+        width: 30%;
+        padding: 2.5%;
+        border: 3px solid black;
+        border-radius: 2%; 
+        background-color: #ffff;
+    }
+    
+    /* SANIDADE */
+    .posicaoSani{
+        position: absolute;
+        width: 25%;
+        left: 49%;
+        bottom: -36.5%;
+        padding: 0%;
+    }
+    
+    .txtSani{
+        position: absolute;
+        width: 28%;
+        padding: 0.5%;
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 25px);
+        color: #333;
+        top: -80%;
+        text-align: center; 
+    }
+    
+    .pontosSani{
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 17px);
+        text-align: center;
+        position: absolute;
+        width: 30%;
+        padding: 2.5%;
+        border: 3px solid black;
+        border-radius: 2%; 
+        text-align: center;
+        background-color: #ffff;
+    }
+    
+    /* DEFESA */
+    .blackDefesa{
+        position: absolute; 
+        background-color: #333;
+        width: 25%;
+        padding: 2%;
+        border: 3px solid black;
+        border-radius: 2%;  
+        top: 146%;
+        left: 32%;
+        box-shadow:  -5.5px 6.5px 0  #4444;
+    }
+    
+    .txtDefesa{
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 24px);
+        position: absolute;
+        top: 30%;
+        left: 30%;
+        color: #ffff;
+        padding-left: 5%;
+        background-color: #333;
+    }
+    
+    /* PASSIVA */
+    .posicaoDef{
+        position: absolute;
+        top: 158%;
+        left:  30.5%;
+        width: 25%;
+    }
+    
+    .txtDef{
+        position: absolute;
+        width: 43%;
+        padding: 0.5%;
+        left: 10%;
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 24px);
+        color: #333;
+        padding-top: 2%;
+    }
+    
+    .pontosDEF{
+        position: absolute; 
+        background-color: #ffff;
+        width: 10%;
+        padding: 0.5%;
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 17px);
+        text-align: center;
+        color: #333;
+        border: 3px solid black;
+        border-radius: 2%; 
+        left: 32%;
+        bottom: -70%;
+    }
+    
+    /* ESQUIVA */
+    .posicaoEsq{
+        position: absolute;
+        top: 158%;
+        left: 43%;
+        width: 25%;
+    }
+    
+    .txtEsq{
+        position: absolute;
+        width: 30%;
+        left: 12%;
+        padding: 0.5%;
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 24px);
+        color: #333;
+        padding-top: 2%;
+    }
+    
+    .pontosEsq{
+        position: absolute; 
+        background-color: #ffff;
+        width: 10%;
+        padding: 0.5%;
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 17px);
+        text-align: center;
+        color: #333;
+        border: 3px solid black;
+        border-radius: 2%; 
+        left: 45%;
+        bottom: -70%;
+    }
+    
+    /* ARMAS */
+    .titleArmas{
+        position: absolute; 
+        background-color: #333;
+        width: 80%;
+        padding: 2%;
+        border: 3px solid black;
+        border-radius: 2%;  
+        top: 180%;
+        left: 10%;
+        box-shadow:  -5.5px 6.5px 0  #4444;  
+    }
+    
+    .txtArmas{
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 24px);
+        position: absolute;
+        top: 30%;
+        left: 38%;
+        color: #ffff;
+        padding-left: 5%;
+        background-color: #333;
+    }
+    
+    /* ARMAS - Campo de digitação*/
+    .boxArmas{
+        position: absolute; 
+        border: 3px solid #333;
+        background-color: #4444;
+        width: 80%;
+        height: 30%;
+        padding: 2%; 
+        bottom: -130%;
+        left: 10%;
+    }
+    
+    .txtBox{
+        font-weight: 800;
+        font-size: clamp(8px, 1.5vw, 24px);
+        position: absolute;
+        top: -20%;
+        left: 5%;
+        color: #333;
+    }
+    
+    input.bxL{
+        position: absolute;
+        background-color: #ffff;
+        width: 95%;
+        padding: 0.5%;
+        padding-bottom:- 30px;
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 16px);
+        color: #333;
+    }
+    
+    .linha1{
+        top: 3%;
+    }
+    .linha2{
+        top: 23%;
+    }
+    .linha3{
+        top: 43%;
+    }
+    .linha4{
+        top: 63%;
+    }
+    
+    .linha5{
+        top: 83%;
+    }
+    .bag{
+        width: 3%;
+    }
+    
+    /*barra preta do inventario*/
+    .titleInventario{
+        position: absolute; 
+        background-color: #333;
+        width: 80%;
+        padding: 0.5%;
+        border: 3px solid black;
+        border-radius: 2%;  
+        top: 240%;
+        left: 10%;
+        box-shadow:  -5.5px 6.5px 0  #4444;
+    }
+    
+    .txtInventario{
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 24px);
+        position: absolute;
+        top: 30%;
+        left: 38%;
+        color: #ffff;
+        padding-left: 5%;
+        background-color: #333;
+    }
+    
+    /*Itens*/
+    .titleDetalhe{
+        position: absolute; 
+        border: 3px solid #333;
+        background-color: #4444;
+        width: 30%;
+        padding: 2%; 
+        height: 50%;
+        bottom: -200%;
+        left: 10%;
+    }
+    
+    /*Detalhes*/
+    .titleDeta{
+        position: absolute; 
+        border: 3px solid #333;
+        background-color: #4444;
+        width: 30%;
+        padding: 2%; 
+        height: 50%;
+        bottom: -200%;
+        left: 40%; 
+    }
+    
+    /*Input do item e detalhes*/
+    .txtItem, .txtDeta{
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 24px);
+        position: absolute;
+        top: 5%;
+        color: #333;
+    }
+    
+    input.bxI, input.bxD{
+        position: absolute;
+        background-color: #ffff;
+        width: 85%;
+        padding: 0.5%;
+        padding-bottom:- 30px;
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 17px);
+        color: #333;
+    }
+    
+    /*Espaço*/
+    .titleEspaco{
+        position: absolute; 
+        border: 3px solid #333;
+        background-color: #4444;
+        width: 10%;
+        height: 50%;
+        bottom: -200%;
+        padding: 2%; 
+        left: 70%;
+    }
+    
+    /*Peso*/
+    .titlePeso{
+        position: absolute; 
+        border: 3px solid #333;
+        background-color: #4444;
+        width: 10%;
+        padding: 2%; 
+        height: 50%;
+        bottom: -200%;
+        left: 80%;
+    }
+    
+    .txtEspa, .txtPeso{
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 24px);
+        position: absolute;
+        top: 5%;
+        color: #333;
+    }
+    
+    input.bxE, input.bxP{
+        position: absolute;
+        text-align: center;
+        background-color: #ffff;
+        width: 60%;
+        padding: 0.5%;
+        padding-bottom:- 30px;
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 17px);
+        color: #333;
+    }
+    
+    .boxItem8, .boxDeta8, .boxEspa8, .boxPeso8 {
+        top: 85%;
+    }
+    .boxItem7, .boxDeta7, .boxEspa7, .boxPeso7 {
+        top: 75%;
+    }
+    .boxItem6, .boxDeta6, .boxEspa6, .boxPeso6 {
+        top: 65%;
+    }
+    .boxItem5, .boxDeta5, .boxEspa5, .boxPeso5 {
+        top: 55%;
+    }
+    .boxItem4, .boxDeta4, .boxEspa4, .boxPeso4 {
+        top: 45%;
+    }
+    .boxItem3, .boxDeta3, .boxEspa3, .boxPeso3 {
+        top: 35%;
+    }
+    .boxItem2, .boxDeta2, .boxEspa2, .boxPeso2 {
+        top: 25%;
+    }
+    .boxItem1, .boxDeta1, .boxEspa1, .boxPeso1 {
+        top: 15%;
+    }
+    
+    /* Retornar o valor*/
+    .somaPesoEspaco{
+        position: absolute; 
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 14px);
+        background-color: #333;
+        color: #ffff;
+        width: 42%;
+        padding: 0.5%;
+        border: 3px solid black;
+        border-radius: 2%;  
+        bottom: -207%;
+        right: 10%;
+    }
+    
+    .boxSomaPeso, .boxSomaEspa{
+        position: absolute 1fr;
+        width: 27%;
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 14px);
+        color: red;
+        text-align: center;
+        outline: none;
+    }
+    
+    /*Caracteristicas*/
+    .titleCarac{
+        position: absolute; 
+        background-color: #333;
+        width: 80%;
+        padding: 2%;
+        border: 3px solid black;
+        border-radius: 2%;  
+        bottom: -220%;
+        left: 10%;
+        box-shadow:  -5.5px 6.5px 0  #4444;
+    }
+    
+    .txtCarac{
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 24px);
+        position: absolute;
+        top: 30%;
+        left: 38%;
+        color: #ffff;
+        padding-left: 5%;
+        background-color: #333;
+    }
+    
+    .boxCarac{
+        position: absolute;
+        background-color: #4444;
+        width: 80%;
+        height: 30%;
+        padding: 2%;
+        border: 3px solid black;
+        bottom: -250%;
+        left: 10%;
+    }
+    
+    .blocoCarac{
+        position: absolute;
+        background-color: #ffff;
+        width: 95%;
+        height: 70%;
+        padding: 0.5%;
+        padding-bottom:- 30px;
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 16px);
+        color: #333;
+    }
+    /*Habilidades*/
+    
+    .titleHab{
+        position: absolute; 
+        background-color: #333;
+        width: 80%;
+        padding: 2%;
+        border: 3px solid black;
+        border-radius: 2%;  
+        bottom: -270%;
+        left: 10%;
+        box-shadow:  -5.5px 6.5px 0  #4444;
+    }
+    
+    .txtHab{
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 24px);
+        position: absolute;
+        top: 30%;
+        left: 38%;
+        color: #ffff;
+        padding-left: 5%;
+        background-color: #333;
+    }
+    
+    .boxHab{
+        position: absolute;
+        background-color: #4444;
+        width: 80%;
+        height: 30%;
+        padding: 2%;
+        border: 3px solid black;
+        bottom: -300%;
+        left: 10%;
+    }
+    
+    .blocoHab{
+        position: absolute;
+        background-color: #ffff;
+        width: 95%;
+        height: 70%;
+        padding: 0.5%;
+        padding-bottom:- 30px;
+        font-weight: 800;
+        font-size: clamp(8px, 2vw, 16px);
+        color: #333;
+    }
+    
+    /*----------------------------- FIM -----------------------------*/
+    
+    .boxBtn{
+        position: absolute;
+        width: 30%;
+        height: 15%;
+        padding: 2%;
+        border: 3px solid #333;
+        border-radius: 6px;
+        bottom: -320%;
+        right: 10%;
+    }
+    
+    button.btn{
+        position: absolute;
+        width: 25%;
+        height: 10%;
+        padding: 3%;
+        font-weight: 800;
+        font-size: clamp(8px, 1.5vw, 22px);
+        border: 3px solid #333;
+        border-radius: 6px;
+        box-shadow:  -5.5px 6.5px 0  #4444;
+        color: #333;
+        padding-bottom: 7%;
+        padding-top: 2%;
+    }
+    
+    button:active{
+        position: absolute;
+        box-shadow: inset -4px 4px 0 #4444;;
+        font-size: 0.9rem;
+        font-size: clamp(8px, 2vw, 22px);
+    }
+    
+    .salvar{
+        position: absolute;
+        background-color: rgb(88, 249, 104);
+        left: 8.5%;
+        
+    }
+    .atualizar{
+        position: absolute;
+        background-color: rgb(91, 102, 252);
+        left: 39%;
+    }
+    
+    .apagar{
+        position: absolute;
+        background-color: rgb(252, 67, 67);
+        left: 69.5%;
+    }
+    
+    
+    
+
+}

@@ -1,0 +1,1308 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxanium&display=swap');
+
+@media (max-width: 1920px){
+
+    html{overflow-y: scroll;}
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Oxanium', cursive;
+        background-color: none;
+    }
+    
+    html{
+        background-color: #4444;
+    }
+    
+    .borda{
+        position: absolute;
+        background-color: #444;
+        box-shadow: -10px 8px 0 #333;
+        border-radius: 8%;
+        height: 80%;
+        width: 34%;
+        left: 33%;
+        top: 10%;
+    }
+    
+    .txtLogin{
+        position: absolute;
+        color: #ffff;
+        top: 15%;
+        left: 41%;
+        font-size: clamp(8px, 4vw, 40px);
+        font-weight: 800;
+    }
+    
+    .txtCampo1{
+        position: absolute;
+        color: #ffff;
+        font-size: clamp(8px, 4vw, 26px);
+        font-weight: 800;
+        top: 35%;
+        left: 11%;
+    }
+    
+    .txtCampo2{
+        position: absolute;
+        color: #ffff;
+        font-size: clamp(8px, 4vw, 26px);
+        font-weight: 800;
+        top: 55%;
+        left: 11%;
+    }
+    
+    .campoEmail{
+        position: absolute;
+        color:#333;
+        font-size: clamp(8px, 4vw, 20px);
+        font-weight: 800;
+        border-radius: 3%;
+        border: 3px solid black;
+        box-shadow: -4px 7px 0 #333;
+        width: 80%;
+        top: 42%;
+        left: 10%;
+    }
+    
+    .campoSenha{
+        position: absolute;
+        color:#333;
+        font-size: clamp(8px, 4vw, 20px);
+        box-shadow: -4px 7px 0 #333;
+        font-weight: 800;
+        border-radius: 3%;
+        border: 3px solid black;
+        width: 80%;
+        top: 62%;
+        left: 10%;
+    }
+    
+    .confirmar{
+        position: absolute;
+        font-size: clamp(8px, 4vw, 26px);
+        border: 3px solid black;
+        width: 25%;
+        border-radius: 8%;
+        box-shadow: -5px 8px 0 #333;
+        top: 70%;
+        left: 65%;
+        outline: none;
+    }
+    
+    .cadastrolink{
+        position: absolute;
+        font-size: clamp(8px, 4vw, 26px);
+        border: 3px solid black;
+        width: 36%;
+        border-radius: 8%;
+        box-shadow: -5px 8px 0 #333;
+        top: 85%;
+        left: 32%;
+        outline: none;
+    }
+    
+    button:active{
+        position: absolute;
+        font-size: clamp(8px, 4vw, 20px);
+        box-shadow: inset -2px 2px 0 #444;
+        font-size: 1.4rem;
+    }
+    
+    .linkCad{
+        text-decoration: none;
+        color: #333;
+        background-color: #ffff;
+    }
+    
+    .linkLogar{
+        text-decoration: none;
+        color: #333;
+        background-color: #ffff;
+    }
+    
+    /* ---------  CADASTRO ---------  */
+    .txtcad{
+        position: absolute;
+        color: #ffff;
+        top: 10%;
+        left: 31%;
+        font-size: clamp(8px, 4vw, 40px);
+        font-weight: 800;
+    }
+    
+    .txtCampo1{
+        position: absolute;
+        color: #ffff;
+        font-size: clamp(8px, 4vw, 26px);
+        font-weight: 800;
+        top: 28%;
+        left: 11%;
+    }
+    
+    .txtCampo2{
+        position: absolute;
+        color: #ffff;
+        font-size: clamp(8px, 4vw, 26px);
+        font-weight: 800;
+        top: 45%;
+        left: 11%;
+    }
+    
+    .txtCampo3{
+        position: absolute;
+        color: #ffff;
+        font-size: clamp(8px, 4vw, 26px);
+        font-weight: 800;
+        top: 62%;
+        left: 11%;
+    }
+    
+    .campoEmail{
+        position: absolute;
+        color:#333;
+        font-size: clamp(8px, 4vw, 20px);
+        font-weight: 800;
+        border-radius: 3%;
+        border: 3px solid black;
+        box-shadow: -4px 7px 0 #333;
+        width: 80%;
+        top: 35%;
+        left: 10%;
+    }
+    
+    .campoSenha{
+        position: absolute;
+        color:#333;
+        font-size: clamp(8px, 4vw, 20px);
+        box-shadow: -4px 7px 0 #333;
+        font-weight: 800;
+        border-radius: 3%;
+        border: 3px solid black;
+        width: 80%;
+        top: 53%;
+        left: 10%;
+    }
+    
+    .campoSenha2{
+        position: absolute;
+        color:#333;
+        font-size: clamp(8px, 4vw, 20px);
+        box-shadow: -4px 7px 0 #333;
+        font-weight: 800;
+        border-radius: 3%;
+        border: 3px solid black;
+        width: 80%;
+        top: 71%;
+        left: 10%;
+    }
+    
+    .linkResgistrar{
+        text-decoration: none;
+        color: #333;
+        background-color: #ffff;
+    }
+    button.registrar{
+        position: absolute;
+        font-size: clamp(8px, 4vw, 24px);
+        border: 3px solid black;
+        width: 40%;
+        border-radius: 8%;
+        box-shadow: -5px 8px 0 #333;
+        top: 85%;
+        left: 32%;
+        outline: none;
+    }
+
+}
+
+@media (max-width: 1420px){
+
+    html{overflow-y: scroll;}
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Oxanium', cursive;
+        background-color: none;
+    }
+    
+    html{
+        background-color: #4444;
+    }
+    
+    .borda{
+        position: absolute;
+        background-color: #444;
+        box-shadow: -10px 8px 0 #333;
+        border-radius: 8%;
+        height: 80%;
+        width: 40%;
+        left: 30%;
+        top: 10%;
+    }
+    
+    .txtLogin{
+        position: absolute;
+        color: #ffff;
+        top: 15%;
+        left: 42%;
+        font-size: clamp(8px, 4vw, 40px);
+        font-weight: 800;
+    }
+    
+    .txtCampo1{
+        position: absolute;
+        color: #ffff;
+        font-size: clamp(8px, 4vw, 26px);
+        font-weight: 800;
+        top: 35%;
+        left: 11%;
+    }
+    
+    .txtCampo2{
+        position: absolute;
+        color: #ffff;
+        font-size: clamp(8px, 4vw, 26px);
+        font-weight: 800;
+        top: 55%;
+        left: 11%;
+    }
+    
+    .campoEmail{
+        position: absolute;
+        color:#333;
+        font-size: clamp(8px, 4vw, 20px);
+        font-weight: 800;
+        border-radius: 3%;
+        border: 3px solid black;
+        box-shadow: -4px 7px 0 #333;
+        width: 80%;
+        top: 42%;
+        left: 10%;
+    }
+    
+    .campoSenha{
+        position: absolute;
+        color:#333;
+        font-size: clamp(8px, 4vw, 20px);
+        box-shadow: -4px 7px 0 #333;
+        font-weight: 800;
+        border-radius: 3%;
+        border: 3px solid black;
+        width: 80%;
+        top: 62%;
+        left: 10%;
+    }
+    
+    .confirmar{
+        position: absolute;
+        font-size: clamp(8px, 4vw, 26px);
+        border: 3px solid black;
+        width: 25%;
+        border-radius: 8%;
+        box-shadow: -5px 8px 0 #333;
+        top: 70%;
+        left: 65%;
+        outline: none;
+    }
+    
+    .cadastrolink{
+        position: absolute;
+        font-size: clamp(8px, 4vw, 24px);
+        border: 3px solid black;
+        width: 40%;
+        border-radius: 8%;
+        box-shadow: -5px 8px 0 #333;
+        top: 85%;
+        left: 32%;
+        outline: none;
+    }
+    
+    button:active{
+        position: absolute;
+        font-size: clamp(8px, 4vw, 20px);
+        box-shadow: inset -2px 2px 0 #444;
+        font-size: 1.4rem;
+    }
+    
+    .linkCad{
+        text-decoration: none;
+        color: #333;
+        background-color: #ffff;
+    }
+    
+    .linkLogar{
+        text-decoration: none;
+        color: #333;
+        background-color: #ffff;
+    }
+    
+    /* ---------  CADASTRO ---------  */
+    .txtcad{
+        position: absolute;
+        color: #ffff;
+        top: 10%;
+        left: 30%;
+        font-size: clamp(8px, 4vw, 40px);
+        font-weight: 800;
+    }
+    
+    .txtCampo1{
+        position: absolute;
+        color: #ffff;
+        font-size: clamp(8px, 4vw, 26px);
+        font-weight: 800;
+        top: 28%;
+        left: 11%;
+    }
+    
+    .txtCampo2{
+        position: absolute;
+        color: #ffff;
+        font-size: clamp(8px, 4vw, 26px);
+        font-weight: 800;
+        top: 45%;
+        left: 11%;
+    }
+    
+    .txtCampo3{
+        position: absolute;
+        color: #ffff;
+        font-size: clamp(8px, 4vw, 26px);
+        font-weight: 800;
+        top: 62%;
+        left: 11%;
+    }
+    
+    .campoEmail{
+        position: absolute;
+        color:#333;
+        font-size: clamp(8px, 4vw, 20px);
+        font-weight: 800;
+        border-radius: 3%;
+        border: 3px solid black;
+        box-shadow: -4px 7px 0 #333;
+        width: 80%;
+        top: 35%;
+        left: 10%;
+    }
+    
+    .campoSenha{
+        position: absolute;
+        color:#333;
+        font-size: clamp(8px, 4vw, 20px);
+        box-shadow: -4px 7px 0 #333;
+        font-weight: 800;
+        border-radius: 3%;
+        border: 3px solid black;
+        width: 80%;
+        top: 53%;
+        left: 10%;
+    }
+    
+    .campoSenha2{
+        position: absolute;
+        color:#333;
+        font-size: clamp(8px, 4vw, 20px);
+        box-shadow: -4px 7px 0 #333;
+        font-weight: 800;
+        border-radius: 3%;
+        border: 3px solid black;
+        width: 80%;
+        top: 71%;
+        left: 10%;
+    }
+    
+    .linkResgistrar{
+        text-decoration: none;
+        color: #333;
+        background-color: #ffff;
+    }
+
+    button.registrar{
+        position: absolute;
+        font-size: clamp(8px, 4vw, 24px);
+        border: 3px solid black;
+        width: 40%;
+        border-radius: 8%;
+        box-shadow: -5px 8px 0 #333;
+        top: 85%;
+        left: 32%;
+        outline: none;
+    }
+}
+
+@media (max-width: 1100px){
+
+    html{overflow-y: scroll;}
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Oxanium', cursive;
+        background-color: none;
+    }
+    
+    html{
+        background-color: #4444;
+    }
+    
+    .borda{
+        position: absolute;
+        background-color: #444;
+        box-shadow: -10px 8px 0 #333;
+        border-radius: 8%;
+        height: 80%;
+        width: 50%;
+        left: 25%;
+        top: 10%;
+    }
+    
+    .txtLogin{
+        position: absolute;
+        color: #ffff;
+        top: 15%;
+        left: 40%;
+        font-size: clamp(8px, 4vw, 40px);
+        font-weight: 800;
+    }
+    
+    .txtCampo1{
+        position: absolute;
+        color: #ffff;
+        font-size: clamp(8px, 4vw, 26px);
+        font-weight: 800;
+        top: 35%;
+        left: 11%;
+    }
+    
+    .txtCampo2{
+        position: absolute;
+        color: #ffff;
+        font-size: clamp(8px, 4vw, 26px);
+        font-weight: 800;
+        top: 55%;
+        left: 11%;
+    }
+    
+    .campoEmail{
+        position: absolute;
+        color:#333;
+        font-size: clamp(8px, 4vw, 20px);
+        font-weight: 800;
+        border-radius: 3%;
+        border: 3px solid black;
+        box-shadow: -4px 7px 0 #333;
+        width: 80%;
+        top: 42%;
+        left: 10%;
+    }
+    
+    .campoSenha{
+        position: absolute;
+        color:#333;
+        font-size: clamp(8px, 4vw, 20px);
+        box-shadow: -4px 7px 0 #333;
+        font-weight: 800;
+        border-radius: 3%;
+        border: 3px solid black;
+        width: 80%;
+        top: 62%;
+        left: 10%;
+    }
+    
+    .confirmar{
+        position: absolute;
+        font-size: clamp(8px, 4vw, 26px);
+        border: 3px solid black;
+        width: 28%;
+        border-radius: 8%;
+        box-shadow: -5px 8px 0 #333;
+        top: 70%;
+        left: 62%;
+        outline: none;
+    }
+    
+    .cadastrolink{
+        position: absolute;
+        font-size: clamp(8px, 4vw, 24px);
+        border: 3px solid black;
+        width: 40%;
+        border-radius: 8%;
+        box-shadow: -5px 8px 0 #333;
+        top: 85%;
+        left: 32%;
+        outline: none;
+    }
+    
+    button:active{
+        position: absolute;
+        font-size: clamp(8px, 4vw, 20px);
+        box-shadow: inset -2px 2px 0 #444;
+        font-size: 1.4rem;
+    }
+    
+    .linkCad{
+        text-decoration: none;
+        color: #333;
+        background-color: #ffff;
+    }
+    
+    .linkLogar{
+        text-decoration: none;
+        color: #333;
+        background-color: #ffff;
+    }
+    
+    /* ---------  CADASTRO ---------  */
+    .txtcad{
+        position: absolute;
+        color: #ffff;
+        top: 10%;
+        left: 30%;
+        font-size: clamp(8px, 4vw, 34px);
+        font-weight: 800;
+    }
+    
+    .txtCampo1{
+        position: absolute;
+        color: #ffff;
+        font-size: clamp(8px, 4vw, 26px);
+        font-weight: 800;
+        top: 28%;
+        left: 11%;
+    }
+    
+    .txtCampo2{
+        position: absolute;
+        color: #ffff;
+        font-size: clamp(8px, 4vw, 28px);
+        font-weight: 800;
+        top: 45%;
+        left: 11%;
+    }
+    
+    .txtCampo3{
+        position: absolute;
+        color: #ffff;
+        font-size: clamp(8px, 4vw, 26px);
+        font-weight: 800;
+        top: 62%;
+        left: 11%;
+    }
+    
+    .campoEmail{
+        position: absolute;
+        color:#333;
+        font-size: clamp(8px, 4vw, 20px);
+        font-weight: 800;
+        border-radius: 3%;
+        border: 3px solid black;
+        box-shadow: -4px 7px 0 #333;
+        width: 80%;
+        top: 35%;
+        left: 10%;
+    }
+    
+    .campoSenha{
+        position: absolute;
+        color:#333;
+        font-size: clamp(8px, 4vw, 20px);
+        box-shadow: -4px 7px 0 #333;
+        font-weight: 800;
+        border-radius: 3%;
+        border: 3px solid black;
+        width: 80%;
+        top: 53%;
+        left: 10%;
+    }
+    
+    .campoSenha2{
+        position: absolute;
+        color:#333;
+        font-size: clamp(8px, 4vw, 20px);
+        box-shadow: -4px 7px 0 #333;
+        font-weight: 800;
+        border-radius: 3%;
+        border: 3px solid black;
+        width: 80%;
+        top: 71%;
+        left: 10%;
+    }
+    
+    .linkResgistrar{
+        text-decoration: none;
+        color: #333;
+        background-color: #ffff;
+    }
+
+    button.registrar{
+        position: absolute;
+        font-size: clamp(8px, 4vw, 24px);
+        border: 3px solid black;
+        width: 40%;
+        border-radius: 8%;
+        box-shadow: -5px 8px 0 #333;
+        top: 85%;
+        left: 32%;
+        outline: none;
+    }
+}
+
+@media (max-width: 820px){
+
+    html{overflow-y: scroll;}
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Oxanium', cursive;
+        background-color: none;
+    }
+    
+    html{
+        background-color: #4444;
+    }
+    
+    .borda{
+        position: absolute;
+        background-color: #444;
+        box-shadow: -10px 8px 0 #333;
+        border-radius: 8%;
+        height: 80%;
+        width: 56%;
+        left: 22%;
+        top: 10%;
+    }
+    
+    .txtLogin{
+        position: absolute;
+        color: #ffff;
+        top: 15%;
+        left:40%;
+        font-size: clamp(8px, 4vw, 34px);
+        font-weight: 800;
+    }
+    
+    .txtCampo1{
+        position: absolute;
+        color: #ffff;
+        font-size: clamp(8px, 4vw, 18px);
+        font-weight: 800;
+        top: 35%;
+        left: 11%;
+    }
+    
+    .txtCampo2{
+        position: absolute;
+        color: #ffff;
+        font-size: clamp(8px, 3vw, 18px);
+        font-weight: 800;
+        top: 55%;
+        left: 11%;
+    }
+    
+    .campoEmail{
+        position: absolute;
+        color:#333;
+        font-size: clamp(8px, 4vw, 18px);
+        font-weight: 800;
+        border-radius: 3%;
+        border: 3px solid black;
+        box-shadow: -4px 7px 0 #333;
+        width: 80%;
+        top: 42%;
+        left: 10%;
+    }
+    
+    .campoSenha{
+        position: absolute;
+        color:#333;
+        font-size: clamp(8px, 4vw, 18px);
+        box-shadow: -4px 7px 0 #333;
+        font-weight: 800;
+        border-radius: 3%;
+        border: 3px solid black;
+        width: 80%;
+        top: 62%;
+        left: 10%;
+    }
+    
+    .confirmar{
+        position: absolute;
+        font-size: clamp(8px, 4vw, 24px);
+        border: 3px solid black;
+        width: 32%;
+        border-radius: 8%;
+        box-shadow: -5px 8px 0 #333;
+        top: 65%;
+        left: 60%;
+        outline: none;
+    }
+    
+    .cadastrolink{
+        position: absolute;
+        font-size: clamp(8px, 4vw, 22px);
+        border: 3px solid black;
+        width: 40%;
+        border-radius: 8%;
+        box-shadow: -5px 8px 0 #333;
+        top: 85%;
+        left: 32%;
+        outline: none;
+    }
+    
+    button:active{
+        position: absolute;
+        font-size: clamp(8px, 4vw, 20px);
+        box-shadow: inset -2px 2px 0 #444;
+        font-size: 1.4rem;
+    }
+    
+    .linkCad{
+        text-decoration: none;
+        color: #333;
+        background-color: #ffff;
+    }
+    
+    .linkLogar{
+        text-decoration: none;
+        color: #333;
+        background-color: #ffff;
+    }
+    
+    /* ---------  CADASTRO ---------  */
+    .txtcad{
+        position: absolute;
+        color: #ffff;
+        top: 10%;
+        left: 30%;
+        font-size: clamp(8px, 4vw, 34px);
+        font-weight: 800;
+    }
+    
+    .txtCampo1{
+        position: absolute;
+        color: #ffff;
+        font-size: clamp(8px, 4vw, 18px);
+        font-weight: 800;
+        top: 28%;
+        left: 11%;
+    }
+    
+    .txtCampo2{
+        position: absolute;
+        color: #ffff;
+        font-size: clamp(8px, 4vw, 18px);
+        font-weight: 800;
+        top: 45%;
+        left: 11%;
+    }
+    
+    .txtCampo3{
+        position: absolute;
+        color: #ffff;
+        font-size: clamp(8px, 4vw, 18px);
+        font-weight: 800;
+        top: 62%;
+        left: 11%;
+    }
+    
+    .campoEmail{
+        position: absolute;
+        color:#333;
+        font-size: clamp(8px, 4vw, 20px);
+        font-weight: 800;
+        border-radius: 3%;
+        border: 3px solid black;
+        box-shadow: -4px 7px 0 #333;
+        width: 80%;
+        top: 32%;
+        left: 10%;
+    }
+    
+    .campoSenha{
+        position: absolute;
+        color:#333;
+        font-size: clamp(8px, 4vw, 20px);
+        box-shadow: -4px 7px 0 #333;
+        font-weight: 800;
+        border-radius: 3%;
+        border: 3px solid black;
+        width: 80%;
+        top: 50%;
+        left: 10%;
+    }
+    
+    .campoSenha2{
+        position: absolute;
+        color:#333;
+        font-size: clamp(8px, 4vw, 20px);
+        box-shadow: -4px 7px 0 #333;
+        font-weight: 800;
+        border-radius: 3%;
+        border: 3px solid black;
+        width: 80%;
+        top: 68%;
+        left: 10%;
+    }
+    
+    .linkResgistrar{
+        text-decoration: none;
+        color: #333;
+        background-color: #ffff;
+        font-size: clamp(8px, 4vw, 20px);
+    }
+
+    button.registrar{
+        position: absolute;
+        font-size: clamp(8px, 4vw, 24px);
+        border: 3px solid black;
+        width: 45%;
+        border-radius: 8%;
+        box-shadow: -5px 8px 0 #333;
+        top: 85%;
+        left: 32%;
+        outline: none;
+    }
+
+}
+
+@media (max-width: 720px){
+
+    html{overflow-y: scroll;}
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Oxanium', cursive;
+        background-color: none;
+    }
+    
+    html{
+        background-color: #4444;
+    }
+    
+    .borda{
+        position: absolute;
+        background-color: #444;
+        box-shadow: -10px 8px 0 #333;
+        border-radius: 8%;
+        height: 80%;
+        width: 58%;
+        left: 21%;
+        top: 10%;
+    }
+    
+    .txtLogin{
+        position: absolute;
+        color: #ffff;
+        top: 15%;
+        left: 40%;
+        font-size: clamp(8px, 5vw, 40px);
+        font-weight: 800;
+    }
+    
+    .txtCampo1{
+        position: absolute;
+        color: #ffff;
+        font-size: clamp(8px, 4vw, 18px);
+        font-weight: 800;
+        top: 35%;
+        left: 11%;
+    }
+    
+    .txtCampo2{
+        position: absolute;
+        color: #ffff;
+        font-size: clamp(8px, 3vw, 18px);
+        font-weight: 800;
+        top: 55%;
+        left: 11%;
+    }
+    
+    .campoEmail{
+        position: absolute;
+        color:#333;
+        font-size: clamp(8px, 4vw, 18px);
+        font-weight: 800;
+        border-radius: 3%;
+        border: 3px solid black;
+        box-shadow: -4px 7px 0 #333;
+        width: 80%;
+        top: 42%;
+        left: 10%;
+    }
+    
+    .campoSenha{
+        position: absolute;
+        color:#333;
+        font-size: clamp(8px, 4vw, 18px);
+        box-shadow: -4px 7px 0 #333;
+        font-weight: 800;
+        border-radius: 3%;
+        border: 3px solid black;
+        width: 80%;
+        top: 62%;
+        left: 10%;
+    }
+    
+    .confirmar{
+        position: absolute;
+        font-size: clamp(8px, 4vw, 24px);
+        border: 3px solid black;
+        width: 32%;
+        border-radius: 8%;
+        box-shadow: -5px 8px 0 #333;
+        top: 65%;
+        left: 60%;
+        outline: none;
+    }
+    
+    .cadastrolink{
+        position: absolute;
+        font-size: clamp(8px, 4vw, 22px);
+        border: 3px solid black;
+        width: 40%;
+        border-radius: 8%;
+        box-shadow: -5px 8px 0 #333;
+        top: 85%;
+        left: 32%;
+        outline: none;
+    }
+    
+    button:active{
+        position: absolute;
+        font-size: clamp(8px, 4vw, 20px);
+        box-shadow: inset -2px 2px 0 #444;
+        font-size: 1.4rem;
+    }
+    
+    .linkCad{
+        text-decoration: none;
+        color: #333;
+        background-color: #ffff;
+    }
+    
+    .linkLogar{
+        text-decoration: none;
+        color: #333;
+        background-color: #ffff;
+    }
+    
+    /* ---------  CADASTRO ---------  */
+    .txtcad{
+        position: absolute;
+        color: #ffff;
+        top: 10%;
+        left: 30%;
+        font-size: clamp(8px, 4vw, 40px);
+        font-weight: 800;
+    }
+    
+    .txtCampo1{
+        position: absolute;
+        color: #ffff;
+        font-size: clamp(8px, 4vw, 18px);
+        font-weight: 800;
+        top: 28%;
+        left: 11%;
+    }
+    
+    .txtCampo2{
+        position: absolute;
+        color: #ffff;
+        font-size: clamp(8px, 4vw, 18px);
+        font-weight: 800;
+        top: 45%;
+        left: 11%;
+    }
+    
+    .txtCampo3{
+        position: absolute;
+        color: #ffff;
+        font-size: clamp(8px, 4vw, 18px);
+        font-weight: 800;
+        top: 62%;
+        left: 11%;
+    }
+    
+    .campoEmail{
+        position: absolute;
+        color:#333;
+        font-size: clamp(8px, 4vw, 20px);
+        font-weight: 800;
+        border-radius: 3%;
+        border: 3px solid black;
+        box-shadow: -4px 7px 0 #333;
+        width: 80%;
+        top: 32%;
+        left: 10%;
+    }
+    
+    .campoSenha{
+        position: absolute;
+        color:#333;
+        font-size: clamp(8px, 4vw, 20px);
+        box-shadow: -4px 7px 0 #333;
+        font-weight: 800;
+        border-radius: 3%;
+        border: 3px solid black;
+        width: 80%;
+        top: 50%;
+        left: 10%;
+    }
+    
+    .campoSenha2{
+        position: absolute;
+        color:#333;
+        font-size: clamp(8px, 4vw, 20px);
+        box-shadow: -4px 7px 0 #333;
+        font-weight: 800;
+        border-radius: 3%;
+        border: 3px solid black;
+        width: 80%;
+        top: 68%;
+        left: 10%;
+    }
+    
+    .linkResgistrar{
+        text-decoration: none;
+        color: #333;
+        background-color: #ffff;
+        font-size: clamp(8px, 4vw, 20px);
+    }
+
+    button.registrar{
+        position: absolute;
+        font-size: clamp(8px, 4vw, 24px);
+        border: 3px solid black;
+        width: 45%;
+        border-radius: 8%;
+        box-shadow: -5px 8px 0 #333;
+        top: 85%;
+        left: 32%;
+        outline: none;
+    }
+
+}
+@media (max-width: 420px){
+
+    html{overflow-y: scroll;}
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Oxanium', cursive;
+        background-color: none;
+    }
+    
+    html{
+        background-color: #4444;
+    }
+    
+    .borda{
+        position: absolute;
+        background-color: #444;
+        box-shadow: -10px 8px 0 #333;
+        border-radius: 8%;
+        height: 70%;
+        width: 60%;
+        left: 21%;
+        top: 10%;
+    }
+    
+    .txtLogin{
+        position: absolute;
+        color: #ffff;
+        top: 15%;
+        left: 40%;
+        font-size: clamp(8px, 5vw, 40px);
+        font-weight: 800;
+    }
+    
+    .txtCampo1{
+        position: absolute;
+        color: #ffff;
+        font-size: clamp(8px, 4vw, 18px);
+        font-weight: 800;
+        top: 35%;
+        left: 11%;
+    }
+    
+    .txtCampo2{
+        position: absolute;
+        color: #ffff;
+        font-size: clamp(8px, 3vw, 18px);
+        font-weight: 800;
+        top: 55%;
+        left: 11%;
+    }
+    
+    .campoEmail{
+        position: absolute;
+        color:#333;
+        font-size: clamp(8px, 4vw, 18px);
+        font-weight: 800;
+        border-radius: 3%;
+        border: 3px solid black;
+        box-shadow: -4px 7px 0 #333;
+        width: 80%;
+        top: 42%;
+        left: 10%;
+    }
+    
+    .campoSenha{
+        position: absolute;
+        color:#333;
+        font-size: clamp(8px, 4vw, 18px);
+        box-shadow: -4px 7px 0 #333;
+        font-weight: 800;
+        border-radius: 3%;
+        border: 3px solid black;
+        width: 80%;
+        top: 62%;
+        left: 10%;
+    }
+    
+    .confirmar{
+        position: absolute;
+        font-size: clamp(8px, 4vw, 24px);
+        border: 3px solid black;
+        width: 32%;
+        border-radius: 8%;
+        box-shadow: -5px 8px 0 #333;
+        top: 65%;
+        left: 60%;
+        outline: none;
+    }
+    
+    .cadastrolink{
+        position: absolute;
+        font-size: clamp(8px, 4vw, 22px);
+        border: 3px solid black;
+        width: 40%;
+        border-radius: 8%;
+        box-shadow: -5px 8px 0 #333;
+        top: 85%;
+        left: 32%;
+        outline: none;
+    }
+    
+    button:active{
+        position: absolute;
+        font-size: clamp(8px, 4vw, 20px);
+        box-shadow: inset -2px 2px 0 #444;
+        font-size: 1.4rem;
+    }
+    
+    .linkCad{
+        text-decoration: none;
+        color: #333;
+        background-color: #ffff;
+    }
+    
+    .linkLogar{
+        text-decoration: none;
+        color: #333;
+        background-color: #ffff;
+    }
+    
+    /* ---------  CADASTRO ---------  */
+    .txtcad{
+        position: absolute;
+        color: #ffff;
+        top: 10%;
+        left: 30%;
+        font-size: clamp(8px, 4vw, 40px);
+        font-weight: 800;
+    }
+    
+    .txtCampo1{
+        position: absolute;
+        color: #ffff;
+        font-size: clamp(8px, 4vw, 18px);
+        font-weight: 800;
+        top: 28%;
+        left: 11%;
+    }
+    
+    .txtCampo2{
+        position: absolute;
+        color: #ffff;
+        font-size: clamp(8px, 4vw, 18px);
+        font-weight: 800;
+        top: 45%;
+        left: 11%;
+    }
+    
+    .txtCampo3{
+        position: absolute;
+        color: #ffff;
+        font-size: clamp(8px, 4vw, 18px);
+        font-weight: 800;
+        top: 62%;
+        left: 11%;
+    }
+    
+    .campoEmail{
+        position: absolute;
+        color:#333;
+        font-size: clamp(8px, 4vw, 20px);
+        font-weight: 800;
+        border-radius: 3%;
+        border: 3px solid black;
+        box-shadow: -4px 7px 0 #333;
+        width: 80%;
+        top: 32%;
+        left: 10%;
+    }
+    
+    .campoSenha{
+        position: absolute;
+        color:#333;
+        font-size: clamp(8px, 4vw, 20px);
+        box-shadow: -4px 7px 0 #333;
+        font-weight: 800;
+        border-radius: 3%;
+        border: 3px solid black;
+        width: 80%;
+        top: 50%;
+        left: 10%;
+    }
+    
+    .campoSenha2{
+        position: absolute;
+        color:#333;
+        font-size: clamp(8px, 4vw, 20px);
+        box-shadow: -4px 7px 0 #333;
+        font-weight: 800;
+        border-radius: 3%;
+        border: 3px solid black;
+        width: 80%;
+        top: 68%;
+        left: 10%;
+    }
+    
+    .linkResgistrar{
+        text-decoration: none;
+        color: #333;
+        background-color: #ffff;
+        font-size: clamp(8px, 4vw, 20px);
+    }
+
+    button.registrar{
+        position: absolute;
+        font-size: clamp(8px, 4vw, 24px);
+        border: 3px solid black;
+        width: 45%;
+        border-radius: 8%;
+        box-shadow: -5px 8px 0 #333;
+        top: 85%;
+        left: 32%;
+        outline: none;
+    }
+
+}
