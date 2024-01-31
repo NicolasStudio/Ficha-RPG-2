@@ -1,0 +1,517 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxanium&display=swap');
+html{overflow-y: scroll;}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oxanium', cursive;
+    background-color: none;
+}
+
+html{
+    background-color: #4444;
+}
+
+@media(max-width:1920px) {
+    /* Box do campo de email e senha */
+    .borda{
+        position: absolute;
+        background-color: #444;
+        box-shadow: -5px 5px 0.5rem #333;
+        border: #222  2px solid;
+        border-radius: 8%;
+        height: 80%;
+        width: 32%;
+        left: 34%;
+        top: 10%;
+    }
+
+    /* Title */
+    .txtLogin, .txtcad{
+        margin-top: 15%;
+        text-align: center;
+        color: #ffff;
+        font-size: clamp(8px, 4vw, 40px);
+        font-weight: 800;
+    }
+
+    /* Texto a cima dos input */
+    .txtCampo1, .txtCampo2, .txtCampo3{
+        position: absolute;
+        color: #ffff;
+        font-size: clamp(8px, 4vw, 26px);
+        font-weight: 800;
+    }
+
+    .txtCampo1{
+        top: 28%;
+        left: 11%;
+    }
+
+    .txtCampo2{
+        top: 55%;
+        left: 11%;
+    }
+    
+    .txtCampo2{
+        top: 45%;
+        left: 11%;
+    }
+
+    .txtCampo3{
+        top: 62%;
+        left: 11%;
+    }
+
+    /* Inputs */
+    .campoEmail, .campoSenha, .campoSenha2{
+        position: absolute;
+        color:#333;
+        font-size: clamp(8px, 4vw, 20px);
+        padding: 1px 8px;
+        font-weight: 800;
+        border-radius: 3%;
+        border: 3px solid black;
+        box-shadow: -4px 7px 0 #333;
+        width: 80%;
+        outline: none;
+    }
+
+    .campoEmail{
+        top: 35%;
+        left: 10%;
+    }
+
+    .campoSenha{
+        top: 53%;
+        left: 10%;
+    }
+
+    .campoSenha2{
+        top: 71%;
+        left: 10%;
+    }
+
+    /* Botão de entrar */
+    .confirmar, .cadastro, .confirmCad{
+        position: absolute;
+        font-size: clamp(8px, 4vw, 26px);
+        border: 3px solid black;
+        width: 25%;
+        border-radius: 8%;
+        box-shadow: -5px 8px 0 #333;
+        width: auto;
+        padding: 0px 8px;
+        outline: none;
+        cursor: pointer;
+    }
+
+    .confirmar{
+        top: 70%;
+        right: 10%;
+    }
+
+    /* Cadastro */
+    .cadastro{
+        top: 85%;
+        left: 32%;
+        outline: none;
+    }
+
+    button:active{
+        position: absolute;
+        font-size: clamp(8px, 4vw, 20px);
+        box-shadow: inset -2px 2px 0 #444;
+        font-size: 1.4rem;
+    }
+
+    .linkCad, .linkLogar{
+        text-decoration: none;
+        color: #000;
+        background-color: none;
+    }
+
+    /* ---------  CADASTRO ---------  */
+    .confirmCad{
+        top: 85%;
+        left: 39%;
+    }
+}
+
+@media(max-width:1200px) {
+    /* Box do campo de email e senha */
+    .borda{
+        position: absolute;
+        background-color: #444;
+        box-shadow: -5px 5px 0.5rem #333;
+        border: #222  2px solid;
+        border-radius: 8%;
+        height: 68%;
+        width: 40%;
+        left: 30%;
+        top: 10%;
+    }
+
+    /* Title */
+    .txtLogin, .txtcad{
+        margin-top: 15%;
+        text-align: center;
+        color: #ffff;
+        font-size: clamp(8px, 4vw, 40px);
+        font-weight: 800;
+    }
+
+    /* Texto a cima dos input */
+    .txtCampo1, .txtCampo2, .txtCampo3{
+        position: absolute;
+        color: #ffff;
+        font-size: clamp(8px, 4vw, 26px);
+        font-weight: 800;
+    }
+
+    .txtCampo1{
+        top: 28%;
+        left: 11%;
+    }
+
+    .txtCampo2{
+        top: 55%;
+        left: 11%;
+    }
+    
+    .txtCampo2{
+        top: 45%;
+        left: 11%;
+    }
+
+    .txtCampo3{
+        top: 62%;
+        left: 11%;
+    }
+
+    /* Inputs */
+    .campoEmail, .campoSenha, .campoSenha2{
+        position: absolute;
+        color:#333;
+        font-size: clamp(8px, 4vw, 20px);
+        padding: 1px 8px;
+        font-weight: 800;
+        border-radius: 3%;
+        border: 3px solid black;
+        box-shadow: -4px 7px 0 #333;
+        width: 80%;
+        outline: none;
+    }
+
+    .campoEmail{
+        top: 33%;
+        left: 10%;
+    }
+
+    .campoSenha{
+        top: 51%;
+        left: 10%;
+    }
+
+    .campoSenha2{
+        top: 68%;
+        left: 10%;
+    }
+
+    /* Botão de entrar */
+    .confirmar, .cadastro, .confirmCad{
+        position: absolute;
+        font-size: clamp(8px, 4vw, 26px);
+        border: 3px solid black;
+        width: 25%;
+        border-radius: 8%;
+        box-shadow: -5px 8px 0 #333;
+        width: auto;
+        padding: 0px 8px;
+        outline: none;
+        cursor: pointer;
+    }
+
+    .confirmar{
+        top: 70%;
+        right: 10%;
+    }
+
+    /* Cadastro */
+    .cadastro{
+        top: 85%;
+        left: 30%;
+        outline: none;
+    }
+
+    button:active{
+        position: absolute;
+        font-size: clamp(8px, 4vw, 20px);
+        box-shadow: inset -2px 2px 0 #444;
+        font-size: 1.4rem;
+    }
+
+    .linkCad, .linkLogar{
+        text-decoration: none;
+        color: #000;
+        background-color: #ffff;
+    }
+
+    /* ---------  CADASTRO ---------  */
+    .confirmCad{
+        top: 85%;
+        left: 33%;
+    }
+}
+
+@media(max-width:1024px) {
+    /* Box do campo de email e senha */
+    .borda{
+        position: absolute;
+        background-color: #444;
+        box-shadow: -5px 5px 0.5rem #333;
+        border: #222  2px solid;
+        border-radius: 8%;
+        height: 68%;
+        width: 38%;
+        left: 31%;
+        top: 10%;
+    }
+
+    /* Title */
+    .txtLogin, .txtcad{
+        margin-top: 15%;
+        text-align: center;
+        color: #ffff;
+        font-size: clamp(8px, 4vw, 34px);
+        font-weight: 800;
+    }
+
+    /* Texto a cima dos input */
+    .txtCampo1, .txtCampo2, .txtCampo3{
+        position: absolute;
+        color: #ffff;
+        font-size: clamp(8px, 4vw, 20px);
+        font-weight: 800;
+    }
+
+    .txtCampo1{
+        top: 28%;
+        left: 11%;
+    }
+
+    .txtCampo2{
+        top: 55%;
+        left: 11%;
+    }
+    
+    .txtCampo2{
+        top: 45%;
+        left: 11%;
+    }
+
+    .txtCampo3{
+        top: 62%;
+        left: 11%;
+    }
+
+    /* Inputs */
+    .campoEmail, .campoSenha, .campoSenha2{
+        position: absolute;
+        color:#333;
+        font-size: clamp(8px, 4vw, 18px);
+        padding: 1px 8px;
+        font-weight: 800;
+        border-radius: 3%;
+        border: 3px solid black;
+        box-shadow: -4px 7px 0 #333;
+        width: 80%;
+        outline: none;
+    }
+
+    .campoEmail{
+        top: 33%;
+        left: 10%;
+    }
+
+    .campoSenha{
+        top: 51%;
+        left: 10%;
+    }
+
+    .campoSenha2{
+        top: 68%;
+        left: 10%;
+    }
+
+    /* Botão de entrar */
+    .confirmar, .cadastro, .confirmCad{
+        position: absolute;
+        font-size: clamp(8px, 4vw, 22px);
+        border: 3px solid black;
+        width: 25%;
+        border-radius: 8%;
+        box-shadow: -5px 8px 0 #333;
+        width: auto;
+        padding: 0px 8px;
+        outline: none;
+        cursor: pointer;
+    }
+
+    .confirmar{
+        top: 70%;
+        right: 10%;
+    }
+
+    /* Cadastro */
+    .cadastro{
+        top: 85%;
+        left: 28%;
+        outline: none;
+    }
+
+    button:active{
+        position: absolute;
+        font-size: clamp(8px, 4vw, 20px);
+        box-shadow: inset -2px 2px 0 #444;
+        font-size: 1.4rem;
+    }
+
+    .linkCad, .linkLogar{
+        text-decoration: none;
+        color: #000;
+        background-color: #ffff;
+    }
+
+    /* ---------  CADASTRO ---------  */
+    .confirmCad{
+        top: 85%;
+        left: 35%;
+    }
+}
+
+@media(max-width:768px) {
+    /* Box do campo de email e senha */
+    .borda{
+        position: absolute;
+        background-color: #444;
+        box-shadow: -5px 5px 0.5rem #333;
+        border: #222  2px solid;
+        border-radius: 8%;
+        height: 68%;
+        width: 40%;
+        left: 30%;
+        top: 10%;
+    }
+
+    /* Title */
+    .txtLogin, .txtcad{
+        margin-top: 15%;
+        text-align: center;
+        color: #ffff;
+        font-size: clamp(8px, 4vw, 34px);
+        font-weight: 800;
+    }
+
+    /* Texto acima dos input */
+    .txtCampo1, .txtCampo2, .txtCampo3{
+        position: absolute;
+        color: #ffff;
+        font-size: clamp(8px, 4vw, 16px);
+        font-weight: 800;
+    }
+
+    .txtCampo1{
+        top: 28%;
+        left: 11%;
+    }
+
+    .txtCampo2{
+        top: 55%;
+        left: 11%;
+    }
+    
+    .txtCampo2{
+        top: 45%;
+        left: 11%;
+    }
+
+    .txtCampo3{
+        top: 62%;
+        left: 11%;
+    }
+
+    /* Inputs */
+    .campoEmail, .campoSenha, .campoSenha2{
+        position: absolute;
+        color:#333;
+        font-size: clamp(8px, 4vw, 17px);
+        padding: 1px 8px;
+        font-weight: 800;
+        border-radius: 3%;
+        border: 3px solid black;
+        box-shadow: -3px 5px 0 #333;
+        width: 80%;
+        outline: none;
+    }
+
+    .campoEmail{
+        top: 33%;
+        left: 10%;
+    }
+
+    .campoSenha{
+        top: 51%;
+        left: 10%;
+    }
+
+    .campoSenha2{
+        top: 68%;
+        left: 10%;
+    }
+
+    /* Botão de entrar */
+    .confirmar, .cadastro, .confirmCad{
+        position: absolute;
+        font-size: clamp(8px, 4vw, 20px);
+        border: 3px solid black;
+        width: 25%;
+        border-radius: 8%;
+        box-shadow: -5px 6px 0 #333;
+        width: auto;
+        padding: 0px 8px;
+        outline: none;
+        cursor: pointer;
+    }
+
+    .confirmar{
+        top: 70%;
+        right: 10%;
+    }
+
+    /* Cadastro */
+    .cadastro{
+        top: 85%;
+        left: 25%;
+        outline: none;
+    }
+
+    button:active{
+        position: absolute;
+        font-size: clamp(8px, 4vw, 20px);
+        box-shadow: inset -2px 2px 0 #444;
+        font-size: 1.2rem;
+    }
+
+    .linkCad, .linkLogar{
+        text-decoration: none;
+        color: #000;
+        background-color: #ffff;
+    }
+
+    /* ---------  CADASTRO ---------  */
+    .confirmCad{
+        top: 85%;
+        left: 32%;
+    }
+}

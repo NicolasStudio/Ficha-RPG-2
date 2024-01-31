@@ -1,0 +1,21 @@
+.boxError{
+    border: 2px solid #f52e2e;
+    background-color: #f52e2e;
+    border-radius: 4px;
+    opacity: 0.9;
+    width: 30%;
+    height: 5rem;
+    position: absolute;
+    right: 0;
+    margin-top: 5px;
+    margin-right: 5px;
+    z-index: -1;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.textError, .spanError{
+    color: #E6E6E6;
+}
